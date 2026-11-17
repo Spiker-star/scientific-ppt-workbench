@@ -1,0 +1,864 @@
+[
+  {
+    "repo": "dwzhu-pku/PaperBanana",
+    "commit": "9ceea039be86dd40294361856a4b7bf097d9e2b7",
+    "missing": [],
+    "mismatched": [],
+    "syntax_errors": [],
+    "files": [
+      {
+        "path": ".all-contributorsrc",
+        "sha256": "e66f1e7bab5d78ac5e39368f8373470952794e5df78618756532af012cefdf1a"
+      },
+      {
+        "path": ".gitattributes",
+        "sha256": "63326c955330a4bb928a432044f5f4dea48298316203cd4a1eb9d91f6b8aa635"
+      },
+      {
+        "path": ".gitignore",
+        "sha256": "91e5b72d86a6c5b5c17b81c337b56d7fa2cf625636293ac099155e6d5c8b85ae"
+      },
+      {
+        "path": "CONTRIBUTING.md",
+        "sha256": "9eae2d3ef13b017df0e8401b053625fd7c0a1caadf6d6f32e462511eb5b7eb21"
+      },
+      {
+        "path": "Dockerfile",
+        "sha256": "98838967e0220699d7f2edb8f9243e9d80cf28f519341517696deef39f5ee2ba"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+      },
+      {
+        "path": "README.md",
+        "sha256": "160edad37a611ccb4d08e30fd9097af7fed6dadf6023dcfd3a74215ffc85cc7f"
+      },
+      {
+        "path": "agents/__init__.py",
+        "sha256": "88afce9983c7ca848103e8a3fd6b58475603d875a6543974cf88c39bac898aaa"
+      },
+      {
+        "path": "agents/base_agent.py",
+        "sha256": "cf257bf2561c25b7284aaca0623aedb2067c45474bf23c203c85e494fc70c4ab"
+      },
+      {
+        "path": "agents/critic_agent.py",
+        "sha256": "64a89baac1cb1425f7147e3411512aff199bf8688b3f887c3e57e474258c6356"
+      },
+      {
+        "path": "agents/planner_agent.py",
+        "sha256": "2c5d8b1464bf8ff94e9adab37defcb60376fd7750d1901ee586ecd6514e78f4a"
+      },
+      {
+        "path": "agents/polish_agent.py",
+        "sha256": "1f9a7ba696ad550bca43850efa6ec5378879b017d21d1667a9edb455f76cecaa"
+      },
+      {
+        "path": "agents/retriever_agent.py",
+        "sha256": "e83ba144e0dfe23c73ccbc08d3beafa8cfdc4fa783eb47750bcd3003da7a19c8"
+      },
+      {
+        "path": "agents/stylist_agent.py",
+        "sha256": "81992a7cab00f81f1f678a954190bb9f66c8cf0f69848d7d45b013ffba702270"
+      },
+      {
+        "path": "agents/vanilla_agent.py",
+        "sha256": "66842c4645937b98cfc927a793d5dbed75a3ba217efa2a5cb1f7051e07542c6b"
+      },
+      {
+        "path": "agents/visualizer_agent.py",
+        "sha256": "f1b4a7586f527252871b43ab905f72d00d973644231d61da1c5b51297bb009ba"
+      },
+      {
+        "path": "app.py",
+        "sha256": "a1c451bcb1d658457d72af2117a8adc53403baa013abd8e4b6d2ad94b9a07d8f"
+      },
+      {
+        "path": "assets/dataset-on-hf-xl.svg",
+        "sha256": "66ce0256f2151aab55a120ad81b129352a85772959005b8bbaa32541851a8625"
+      },
+      {
+        "path": "assets/logo.jpg",
+        "sha256": "0a70585641eee0c271fbfc09d922147352e742d2de5ab768afb51368c84910c0"
+      },
+      {
+        "path": "assets/method_diagram.png",
+        "sha256": "1b21b63c56c731c7e70193ca4bba172a498f2d4f2b6a6b8662b04a0f67ab3798"
+      },
+      {
+        "path": "assets/paper-page-xl.svg",
+        "sha256": "f6b2cedfe437a9fb6a6c4e59533ce0fa0ae7a52a569ad8c61863f1e97fb07723"
+      },
+      {
+        "path": "assets/spaces-hf-wordmark.png",
+        "sha256": "3bcd6a34ac10275140334e23616b97f59c55e95667a8126fe8bfc2aed7a51b11"
+      },
+      {
+        "path": "assets/spaces-on-hf-xl.png",
+        "sha256": "297f3337c178613300e5698c87c06d1f0e51e8bb305cd3c432c1b35341f2951c"
+      },
+      {
+        "path": "assets/teaser_figure.jpg",
+        "sha256": "7ac0faafe82e303bae66f900973306f4a2309f79498b0f41b2e26dcb549d7141"
+      },
+      {
+        "path": "code-of-conduct.md",
+        "sha256": "9fd3c55a53aa393d0416ceb4051a967429e7ef11a4c710b58b447d5f550e54cd"
+      },
+      {
+        "path": "configs/model_config.template.yaml",
+        "sha256": "eb5e8318c68daabf1c2110d701d8ac2af99f77bf0f66045b60c19f4c2b517446"
+      },
+      {
+        "path": "demo.py",
+        "sha256": "32c6993723a7c5584cfd28d9f75da4a1b08cc92266c5880ca4bafe712a35a0b7"
+      },
+      {
+        "path": "index.html",
+        "sha256": "01e4b1bbac9754ed711e7a006cbd07c877d64b585cf2479dc70ce47713343ea9"
+      },
+      {
+        "path": "main.py",
+        "sha256": "b40249477b9ee216a3e228b9849e39041a068bf203949a049c6b2e3858ac9147"
+      },
+      {
+        "path": "notebooks/PaperBanana_Colab_End_to_End.ipynb",
+        "sha256": "51eccbabe66d8af8afaa2cebee0f260cd87ad4e22d4056892282f25839e48093"
+      },
+      {
+        "path": "prompts/__init__.py",
+        "sha256": "88afce9983c7ca848103e8a3fd6b58475603d875a6543974cf88c39bac898aaa"
+      },
+      {
+        "path": "prompts/diagram_eval_prompts.py",
+        "sha256": "82fc0e1137b72c5c265a5738ae7203285744632f8a49c84903b4ec3bccb5014c"
+      },
+      {
+        "path": "prompts/plot_eval_prompts.py",
+        "sha256": "7780d16e3121886fdc76e702d3e88d261c473d94dee684dc3054a40d5219f790"
+      },
+      {
+        "path": "requirements.txt",
+        "sha256": "a4a6848e57db039144435f3a0b1a4ec54e71f179998a16f3f1cea66bb556bd7b"
+      },
+      {
+        "path": "scripts/prepare_bench.py",
+        "sha256": "086bfcd9af0b8058f8ab938eea6f6ab394e7dae6213bdfd681cce170bdc19813"
+      },
+      {
+        "path": "scripts/run_demo.sh",
+        "sha256": "77829950b2955c9af168e9bc3f03442ddfe18d83abb01fdf4133dd196cfb14a5"
+      },
+      {
+        "path": "scripts/run_main.sh",
+        "sha256": "90e3e1675ccdb32f38b7ad9f35402bf536ed94e131ced3dfd4dbb639f652009d"
+      },
+      {
+        "path": "skill/SKILL.md",
+        "sha256": "c25c51368840d0358ab9c9727c5d53d6e4649c909d079d3ffe198a63e4495646"
+      },
+      {
+        "path": "skill/clawhub.json",
+        "sha256": "e35d8f4b3d495273106ca53ca2dc18322afbd5e319fdec7cf3679fd9f1133fe0"
+      },
+      {
+        "path": "skill/run.py",
+        "sha256": "be9df9c1fae0f661104386f5170a1b4e25cfc94b5a13e5e557941dfed243f7d6"
+      },
+      {
+        "path": "static/css/bulma-carousel.min.css",
+        "sha256": "9d586b0d953f9dedc8ff3e8b5d611bc943849afefdb0f18a11bb0fed258b9072"
+      },
+      {
+        "path": "static/css/bulma-slider.min.css",
+        "sha256": "9bd5f05ad71360d0e87f21dd3d07d94c080486342f335ff041f5394c6aa6dac9"
+      },
+      {
+        "path": "static/css/bulma.min.css",
+        "sha256": "58b28659220961ead137cb5b346b5759562750ce703094d70fc786e0db467033"
+      },
+      {
+        "path": "static/css/fontawesome.all.min.css",
+        "sha256": "c493875ea907c37e2ef7b9560f75ad5dd918121a0f42889eda351ccab0373eb1"
+      },
+      {
+        "path": "static/css/index.css",
+        "sha256": "bb1d620ef066e29a45ef3aa37502862328391b34dbb866e4eccdbc994eaa78b7"
+      },
+      {
+        "path": "static/images/case_diagram.png",
+        "sha256": "9eda461a9ee0a67dc1e45112596f6c8f2c6c781f2ae603df33ad1fb2045a9986"
+      },
+      {
+        "path": "static/images/case_failure.png",
+        "sha256": "4dd356658ff522a7d2df80b18a802cc036a5a807086799c73e213604ffe541bc"
+      },
+      {
+        "path": "static/images/case_plot_img_vs_code.png",
+        "sha256": "60b87d4942175f08e305acf4196c5a1e81f290eebbad80b9e609371cc3b58d81"
+      },
+      {
+        "path": "static/images/case_style_polish.png",
+        "sha256": "6a0a51127299d9ffa2e92ab3cf09fe0cb113e9980e05387ae65b5535e4cc18a9"
+      },
+      {
+        "path": "static/images/discussion_enhance_style.jpg",
+        "sha256": "02b36e07fc7c196bd132ad66d9feeb3186309bd4633ef2fe7b03f9e8e22a528e"
+      },
+      {
+        "path": "static/images/logo.jpg",
+        "sha256": "0a70585641eee0c271fbfc09d922147352e742d2de5ab768afb51368c84910c0"
+      },
+      {
+        "path": "static/images/main_results.png",
+        "sha256": "a4211234728f2ff169d7a021e806c6e7eb8abda4365bc824bdd601d0a39e4f3a"
+      },
+      {
+        "path": "static/images/method_diagram.png",
+        "sha256": "1b21b63c56c731c7e70193ca4bba172a498f2d4f2b6a6b8662b04a0f67ab3798"
+      },
+      {
+        "path": "static/images/plot_bench_stat.jpg",
+        "sha256": "891f3aa1391a3277bc06ba280e10944d3133fc8c0d755d94d5395b0991a1ef5f"
+      },
+      {
+        "path": "static/images/plot_code_vs_img.jpg",
+        "sha256": "91f00600e95d6074394bc63fad8e6256253a9db1157c4f00c3056f276cac2124"
+      },
+      {
+        "path": "static/images/plot_vanilla_vs_ours_v2.jpg",
+        "sha256": "47fdfe5855ef73eb54171799daeaf56a8a0086720f20e64fd0a1fdc0cc7be13e"
+      },
+      {
+        "path": "static/images/teaser_figure.jpg",
+        "sha256": "7ac0faafe82e303bae66f900973306f4a2309f79498b0f41b2e26dcb549d7141"
+      },
+      {
+        "path": "static/js/bulma-carousel.js",
+        "sha256": "6e07bd2052b80aa297749f5d82ac6021fc43490f6f293decec923c24a86fdfc5"
+      },
+      {
+        "path": "static/js/bulma-carousel.min.js",
+        "sha256": "a8a47bef2cd50640d82aea128360690086ccb6617c6858ee4c71559c88e4a732"
+      },
+      {
+        "path": "static/js/bulma-slider.js",
+        "sha256": "a4269ea38ea6f82ae3a67aca0c03275ad89ff6e1529481675df16c0d8f774f96"
+      },
+      {
+        "path": "static/js/bulma-slider.min.js",
+        "sha256": "e520e9ef6e3223ecfbb50b4649d238af5a85af9161800ad1d003dac80d748f24"
+      },
+      {
+        "path": "static/js/fontawesome.all.min.js",
+        "sha256": "966d8b0493ff38ed08d7b7f880379b64e3b33a478cd2690778311955eef44410"
+      },
+      {
+        "path": "style_guides/generate_category_style_guide.py",
+        "sha256": "736d86ad654c90f95456fbd0a28508507e658063b1b72036c06e3b8958c2ab5f"
+      },
+      {
+        "path": "style_guides/neurips2025_diagram_style_guide.md",
+        "sha256": "d2aee50170d9de995bae01c45737a779853c07a34c1ce106219dc5790ee5bea5"
+      },
+      {
+        "path": "style_guides/neurips2025_plot_style_guide.md",
+        "sha256": "a98397d2cd15a98abf88152c19efdca82ef3f27d66f23f73ed0f88e44e474e92"
+      },
+      {
+        "path": "tests/test_api_route_provider.py",
+        "sha256": "84c3ca170e237521c8ab0a83e857ddffe91fcc0d1d03299708922883a1e9185e"
+      },
+      {
+        "path": "tests/test_atlascloud_provider.py",
+        "sha256": "32c9295e2c8532c8a0972d338283cd2b9bd410a2e2e3e5b30e53a9a7ab2deb71"
+      },
+      {
+        "path": "tests/test_cloudgpu_provider.py",
+        "sha256": "088baa159d23edb36d84a9d9bfd1505d7b166d8824642442c65863c845189296"
+      },
+      {
+        "path": "tests/test_critic_round_scan.py",
+        "sha256": "cf7f6ea1839130bf10804d82892e3f926d171f347e38f29908221783806d7e28"
+      },
+      {
+        "path": "tests/test_demo_saved_results.py",
+        "sha256": "8cf689d4c5a0f75d4eddd42a0b38496611752d6e510915c7a62341520d33cb99"
+      },
+      {
+        "path": "tests/test_legacy_generation_options.py",
+        "sha256": "634394bfc1f72506d2ba316928d0ffdc0561bbaee3dbe5006391e60cd398d5fc"
+      },
+      {
+        "path": "tests/test_legacy_plot_agents.py",
+        "sha256": "70abcb6b525df74d075a67f7482501079757608e8db3300f35ce12d20eaedfe3"
+      },
+      {
+        "path": "tests/test_legacy_ui_result_keys.py",
+        "sha256": "adb6e5ab828a0363b01d2121bd4c1e90449ee8be044ee6c643068f60bc9457aa"
+      },
+      {
+        "path": "tests/test_litellm_provider.py",
+        "sha256": "dca1a43b0660013057870193058203f631c76aff80a04ed9117b2c08899cdf6e"
+      },
+      {
+        "path": "tests/test_local_openai_route.py",
+        "sha256": "c72adca39d53ac78cfcc07fbc960ce32e57f4e5842daaee7831928a983c17f17"
+      },
+      {
+        "path": "tests/test_max_critic_rounds.py",
+        "sha256": "674356f01782b9bf6a7a60318ad6659866081b3d3f99319c3da0a61e8db7c8cf"
+      },
+      {
+        "path": "tests/test_orcarouter_provider.py",
+        "sha256": "d67ce0f0f33a79212ed7c4cb50737beb1e57da2d8fd36dddf230dd8ea7b2ba64"
+      },
+      {
+        "path": "tests/test_planner_metaphor.py",
+        "sha256": "1d21ba43590f147c51a121f44c47f9e7bd805e73b8697813aa3741fe6d705790"
+      },
+      {
+        "path": "tests/test_plot_execution.py",
+        "sha256": "8eb3516766a14d2ae866ca0db2b79c30ccc1d66709f3077b17b80a94c0f1ebb2"
+      },
+      {
+        "path": "tests/test_prepare_bench.py",
+        "sha256": "413bb10b85b79fdbfa6bca20388990aa72bd4a68d6588f9b2664e32fcdfcaaf8"
+      },
+      {
+        "path": "tests/test_progress_tracker.py",
+        "sha256": "b1e8c815de700cdd385421aa755f0b4ac778e2385fe8c5bbd9f00396bd40bce6"
+      },
+      {
+        "path": "tests/test_provider_routing.py",
+        "sha256": "77c69edd2cdc7b2e80ddc024bf9df9910db432b86384ec16dca3713bd5889e88"
+      },
+      {
+        "path": "tests/test_refine_jpeg_encoding.py",
+        "sha256": "f1e9029f298deca3bb9e295675b31ea8dec6668cb5ccf41e8b9c8f08315ef825"
+      },
+      {
+        "path": "tests/test_runcrate_provider.py",
+        "sha256": "a2c8b4023fcae27cd1528fee111e8b586f4288b1fad294cc4c2bc273eaad683c"
+      },
+      {
+        "path": "tests/test_skill_run_dataset.py",
+        "sha256": "5f3c7b16aad4e97a6b851c082f5ef90f2d5d521ae03ce227ce73273b4e76ce1b"
+      },
+      {
+        "path": "tests/test_skill_run_figure_size.py",
+        "sha256": "324da868631d23f8c904897b4357bccd3aea39db3c7d86629e99e444a268e0c2"
+      },
+      {
+        "path": "tests/test_visualizer_critic_rounds.py",
+        "sha256": "65986a78f8cd495bf17345c2f6730aed2c8beb4a27b9c70ca97cb022a8acda1a"
+      },
+      {
+        "path": "utils/__init__.py",
+        "sha256": "88afce9983c7ca848103e8a3fd6b58475603d875a6543974cf88c39bac898aaa"
+      },
+      {
+        "path": "utils/config.py",
+        "sha256": "92037ece10d35db9395201b0ff981bd6791cc8ea2c9adbe8cedb4a8374faa4a9"
+      },
+      {
+        "path": "utils/critic_rounds.py",
+        "sha256": "2303784624d5ffc38279e4b678e443f84b033846e168711be5220753a90d24b6"
+      },
+      {
+        "path": "utils/eval_toolkits.py",
+        "sha256": "de170c8297c922f7be88538314dca6eb943d35abf136d013e1e3e9063d5c475d"
+      },
+      {
+        "path": "utils/generation_utils.py",
+        "sha256": "0ebeca79a2ae9ec0f48dfc7556047b14218604226c81667781eccf361fa780c6"
+      },
+      {
+        "path": "utils/image_utils.py",
+        "sha256": "eaa59c26a7901a6d753d0d59e02b97ea89141920b2f23e11b63dd8dfae6f5d6f"
+      },
+      {
+        "path": "utils/legacy_generation_options.py",
+        "sha256": "faec410585415e4912247aa0611f26c947c975a7ad386e5c4e37fc251394d2ef"
+      },
+      {
+        "path": "utils/legacy_ui_results.py",
+        "sha256": "7b6ff57be91981bb5a5bd451072bda985164c2618ff393986f6bffca0271f4bb"
+      },
+      {
+        "path": "utils/paperviz_processor.py",
+        "sha256": "257e86eafb944100750d7b4b6b08677516ae88b738b38af2b33b900917756408"
+      },
+      {
+        "path": "utils/plot_execution.py",
+        "sha256": "d25935694ef939736359934c1c5bf313dc83c856c16e7f9ebe50d20b231f1d46"
+      },
+      {
+        "path": "visualize/show_pipeline_evolution.py",
+        "sha256": "f73624fd7684edcaeef2277cc907dc40e1c793fbb3341d18ef498d335f660dea"
+      },
+      {
+        "path": "visualize/show_referenced_eval.py",
+        "sha256": "245002b6845d2f7fbe2d371c3480946ac9a15a3e15b35a9e5a0d3872ec3750eb"
+      }
+    ]
+  },
+  {
+    "repo": "Azhi-ss/academic-figure-skills",
+    "commit": "73545d2f2227b03a185c8834709c7808ada5b0cb",
+    "missing": [],
+    "mismatched": [],
+    "syntax_errors": [],
+    "files": [
+      {
+        "path": ".gitignore",
+        "sha256": "7079d96cdc658f32714ac397a6501fd0aec957b5f40f3d2e5008615ea4ee6ec9"
+      },
+      {
+        "path": "CHANGELOG.md",
+        "sha256": "2a8bd2661f82619dba89bdeea1294b3af259833f28bfb5bf70d00e9b838ea53a"
+      },
+      {
+        "path": "CONTRIBUTING.md",
+        "sha256": "e0fd492d5b0c158dbae9c56e6a6253e0cd0b77c8efbf2eb51da6c0e38f27b1c5"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "f69a727bd6cb4ffa2998b244ce843dd92e1c9a6cccc1e91dc9eb030f96df7ad2"
+      },
+      {
+        "path": "README.md",
+        "sha256": "2c23428974afed57c7fb9de4078cbadea25bd91c36ff1c397444bc20454d779e"
+      },
+      {
+        "path": "docs/academic-references.md",
+        "sha256": "15f1243831e7baaba11a5a312f3fd618aef03dc70e6fe1cff01a64728d7665fd"
+      },
+      {
+        "path": "docs/best-practices.md",
+        "sha256": "90b7b13a4b98a3118df03fe6419711bddefaf7cfb925022864366bffabddf9fc"
+      },
+      {
+        "path": "docs/gallery/contrast_ablation_kan.jpg",
+        "sha256": "dba95e6e79f3c7a40c61fb1c5ecaa13d90cb1109532f02aaa00c32876ebc80f2"
+      },
+      {
+        "path": "docs/gallery/dual_fidelity_loop_labo.jpg",
+        "sha256": "743ea536b53b80150aa97ea6eec123ee2641c9fdc04b97ec0221d46f695f8196"
+      },
+      {
+        "path": "docs/gallery/illustrated_modular_agentic_matribo.jpg",
+        "sha256": "ef84cfac90aafb4ea216f50819a96ef0e6d9191a775568caab6e2aa1b7f45143"
+      },
+      {
+        "path": "docs/gallery/modern_technical_vector_deepseek_mla.jpg",
+        "sha256": "bec1ecba540a2ca7acb42ba088642e08f62f4bd4260c531c9010e4943741d68c"
+      },
+      {
+        "path": "docs/gallery/paired_semantic_zones_dash.jpg",
+        "sha256": "001f6a5d90dc5ad957691087cf43487ba7a6572b29a9d9b6c9e0e1c131686054"
+      },
+      {
+        "path": "docs/gallery/pastel_airy_ui_agentic_bo.jpg",
+        "sha256": "a814be2b38495c682c752ff687804815fd17691435454729344c95d852f03aa4"
+      },
+      {
+        "path": "docs/gallery/pastel_airy_ui_swe_agent.jpg",
+        "sha256": "9dc58b0e603aeb9e6eb1c8e953d8461ca90d8e937cc04b7a1dcf3d6880dbcd3c"
+      },
+      {
+        "path": "docs/prompts/contrast_ablation_kan.spec.json",
+        "sha256": "560ffa40e46650abebc097765bb6537170c9e64a27f2422ac84e4ee5504927ad"
+      },
+      {
+        "path": "docs/prompts/dual_fidelity_loop_labo.spec.json",
+        "sha256": "71cf9837226d8cc360a6dabb305d33be86c09bdac4433ee026adc3409d063b9f"
+      },
+      {
+        "path": "docs/prompts/illustrated_modular_agentic_matribo.spec.json",
+        "sha256": "7f3a77f55fe17e33a5b9135be4a0a3dfec33b0b6430ee4cde8e10e19a62c7181"
+      },
+      {
+        "path": "docs/prompts/modern_technical_vector_deepseek_mla.spec.json",
+        "sha256": "9653ddf6749cc3537608823f85a13a022b8cb1b20118b29f4b1a1fae265e96e6"
+      },
+      {
+        "path": "docs/prompts/paired_semantic_zones_dash.spec.json",
+        "sha256": "b905c9788537973d8a2ff8d64a465f6316533dc1b1892d4b0e215b9c5af275c2"
+      },
+      {
+        "path": "docs/prompts/pastel_airy_ui_agentic_bo.spec.json",
+        "sha256": "f5e9b20da15edf9e9db96f07ac3ecefe0bacf25043f26ddd6e6c616b949c36de"
+      },
+      {
+        "path": "docs/prompts/pastel_airy_ui_swe_agent.spec.json",
+        "sha256": "47ae1ba843560a4be38fb749dd329f6239e7acbea99a74f9e98342dcee134aa6"
+      },
+      {
+        "path": "docs/styles.md",
+        "sha256": "5c888ec3415ef9652d53dbee3dff88f19c290c873fb03083f02b812cd98f305d"
+      },
+      {
+        "path": "examples/benchmarks/README.md",
+        "sha256": "809f10078e4fa8a2f417459d511a680b25dbd4fd355ecae15453553554254807"
+      },
+      {
+        "path": "examples/benchmarks/alphafold/figure-plan.md",
+        "sha256": "5dee817d3bd76699368f3556c57f7f6bb77a5fdaa336adbfe2cfccd8942f80cf"
+      },
+      {
+        "path": "examples/benchmarks/alphafold/prompt-spec.json",
+        "sha256": "f0181b2cd8ca755ff2efe7756e8dcb04316e9b4d66f6a4003f48fbef7d9d1913"
+      },
+      {
+        "path": "examples/benchmarks/alphafold/quick-understanding.md",
+        "sha256": "31d3d2bacd8227e87e5d0e8e16cf214db8780d2de9102f21eed0c048f86085ca"
+      },
+      {
+        "path": "examples/benchmarks/cyclegan/figure-plan.md",
+        "sha256": "fbce88e32b14541c79092c53b4b35f6126d8b0c38336ea91266001c4f0946920"
+      },
+      {
+        "path": "examples/benchmarks/cyclegan/prompt-spec.json",
+        "sha256": "7568ef75b02a6ea28fbc58c0cc8adc992c9c3dd5d8cc52cf609ef2b496a1c97b"
+      },
+      {
+        "path": "examples/benchmarks/cyclegan/quick-understanding.md",
+        "sha256": "7f04d1ba91c282be8159d2ca0df18c1ec3f3462b1d960f130311fbf75a19be89"
+      },
+      {
+        "path": "examples/benchmarks/detr/figure-plan.md",
+        "sha256": "fa700c9c329b79b0057ce7f5bf887c07af6105a776a230981eb01dade83f8a05"
+      },
+      {
+        "path": "examples/benchmarks/detr/prompt-spec.json",
+        "sha256": "1ca86c819f3edadc089e5e90015a2025447038646a2796d33347c3534428a6da"
+      },
+      {
+        "path": "examples/benchmarks/detr/quick-understanding.md",
+        "sha256": "e4c45ff55adef62f3d41c4ae2eb4e080b0ef3bc238ffe2166b7736684a861e98"
+      },
+      {
+        "path": "examples/benchmarks/esm/figure-plan.md",
+        "sha256": "2a075e02324d6f98df6bb3977256d90c9d7b10407191436a061de56f0d1829a0"
+      },
+      {
+        "path": "examples/benchmarks/esm/prompt-spec.json",
+        "sha256": "541c3b1ab0845c3b7ed5073d76521e6c7c44f88c7300798a988ec3592f0f9f96"
+      },
+      {
+        "path": "examples/benchmarks/esm/quick-understanding.md",
+        "sha256": "59d36ddf0a89ef93c2982b841b38ae03a30b2b17ed7498acd9764a5c887b552f"
+      },
+      {
+        "path": "examples/benchmarks/fixture-sparse/figure-plan.md",
+        "sha256": "0daa62bf8eb0c4ce51949ef0089c4fbb2e9f61c12716a89a93da8bfafb85733c"
+      },
+      {
+        "path": "examples/benchmarks/fixture-sparse/prompt-spec.json",
+        "sha256": "7bc587d110924b9458908608704790f7882f3795a130bea1703989cf44072d97"
+      },
+      {
+        "path": "examples/benchmarks/fixture-sparse/quick-understanding.md",
+        "sha256": "4890ad5bffc655797b9afe1dce7a6d4db6eafa002d3d621953fbc7fe77c30855"
+      },
+      {
+        "path": "examples/benchmarks/graphcast/figure-plan.md",
+        "sha256": "43825da52a6c1e58e43ebefd99114950f923c28f1a57c653bc08948cc04f951a"
+      },
+      {
+        "path": "examples/benchmarks/graphcast/prompt-spec.json",
+        "sha256": "74003bc99660c978a9416392a0bdd8f31128d7197ddcb5f8f81f9eb0fd3906aa"
+      },
+      {
+        "path": "examples/benchmarks/graphcast/quick-understanding.md",
+        "sha256": "d0343b05f7b1518180c494df8481c0f64ede0667876063385bd4728894929a99"
+      },
+      {
+        "path": "examples/benchmarks/manifest.json",
+        "sha256": "503a2570335a60b4cf778ac3fb27889849b4d1fca8cdbf98ddac3ba7a99c41e3"
+      },
+      {
+        "path": "examples/benchmarks/nanogpt/figure-plan.md",
+        "sha256": "ad7dcf705a248f9af11591e0b075922c2044604945e8c6e106e62edc58ab5450"
+      },
+      {
+        "path": "examples/benchmarks/nanogpt/prompt-spec.json",
+        "sha256": "818da5c93c9328e162fd71be77c44457801eb65800ac06eaf15e5e5b2df0f8e7"
+      },
+      {
+        "path": "examples/benchmarks/nanogpt/quick-understanding.md",
+        "sha256": "bda6cd8e453250640bbb9d701a2efa4e55ef872e0de406b9bf5eac71820df8a6"
+      },
+      {
+        "path": "examples/benchmarks/nerf/figure-plan.md",
+        "sha256": "2a36f8f95280be00462af14d3243b7089f564dac272508e44a67097b19ab4716"
+      },
+      {
+        "path": "examples/benchmarks/nerf/prompt-spec.json",
+        "sha256": "641910d5e53e00346948bcad32126ae56ca3e27055e3de9b6d746e38d04aeb20"
+      },
+      {
+        "path": "examples/benchmarks/nerf/quick-understanding.md",
+        "sha256": "a1b4993d46ca0bb41242fa73abe48c72efc50a377af217c370ae940d68c72b28"
+      },
+      {
+        "path": "examples/benchmarks/stable-diffusion/figure-plan.md",
+        "sha256": "ba905347c0599644e7e423d9e711698945986f1d926e0b2d94b87318a54d7a28"
+      },
+      {
+        "path": "examples/benchmarks/stable-diffusion/prompt-spec.json",
+        "sha256": "7e575854888ba63d803762aea2beae8e2a0b91a4b744237760b1fc06a5744d0d"
+      },
+      {
+        "path": "examples/benchmarks/stable-diffusion/quick-understanding.md",
+        "sha256": "3a8725683cf6a69f0fd164a50a3356533c545d3ed973e143e2ca1f0bc2605211"
+      },
+      {
+        "path": "examples/benchmarks/transformers/figure-plan.md",
+        "sha256": "003551c7cc4b7ed27a05cb580f47c3ca76d3e689e72ae0833775e50e1debf5cf"
+      },
+      {
+        "path": "examples/benchmarks/transformers/prompt-spec.json",
+        "sha256": "d6795bc7a0299c5688abf63b243af18e3ac8717315c53601dcb5cef1ec8b4f7a"
+      },
+      {
+        "path": "examples/benchmarks/transformers/quick-understanding.md",
+        "sha256": "c17ced34ae583e7bb8cb3d3530a0a4ca17818bb274b85732ce8e37ba33b2f892"
+      },
+      {
+        "path": "examples/benchmarks/whisper/figure-plan.md",
+        "sha256": "e08e9d9ccf9bb9703b112c6e92ee0fa83db0b7d1543fab3f7c3b4171bc751eee"
+      },
+      {
+        "path": "examples/benchmarks/whisper/prompt-spec.json",
+        "sha256": "0cd01a9cbffc57e5c1bf9f3bf4bf615f0710cb3f84af732786ba0a7a0a38f6da"
+      },
+      {
+        "path": "examples/benchmarks/whisper/quick-understanding.md",
+        "sha256": "983777f306a6cd1654d3b39e249dbf36c5100aead93930ddb73bba6d991aba9a"
+      },
+      {
+        "path": "examples/orchestration/parallel-figures.md",
+        "sha256": "80eef4bc1f854c161c55ada3ef73149975c846f35ca8a30540bad7c2512af74b"
+      },
+      {
+        "path": "fig-analyze/SKILL.md",
+        "sha256": "c35e88ae583b029c873466105cdb9a1822a0209421bbcbf8b97ceb6f4a4b8189"
+      },
+      {
+        "path": "fig-analyze/references/keywords.md",
+        "sha256": "b33d330ecf453319caa3dfa3fd9e83d2ae7201d6310470f4fac296805c70956d"
+      },
+      {
+        "path": "fig-analyze/references/missing-info-policy.md",
+        "sha256": "def1cc5420bdac37f3c4dc8a656e0577d6c54557257393d370421aee79d96c4f"
+      },
+      {
+        "path": "fig-analyze/references/paper.md",
+        "sha256": "a2c10185bcb17264e73295d474a75c287cecf422ee4d9ce168d264b5bb83dd29"
+      },
+      {
+        "path": "fig-analyze/references/reference-figure.md",
+        "sha256": "27f32ba23d814b97c89d36aec18c1e2620009c456841372f1dbeb69a5e36c7b1"
+      },
+      {
+        "path": "fig-analyze/references/repo.md",
+        "sha256": "34ae5521b258c9336bbdfe8c99a7ae746fb10a9d400b63055b8289942015762a"
+      },
+      {
+        "path": "fig-analyze/scripts/extract_pdf_figures.py",
+        "sha256": "ffe02e01c3d8126cd70fa5739c7e0c993c6071a2cfc3831051dcdef9b840be9f"
+      },
+      {
+        "path": "fig-draw/SKILL.md",
+        "sha256": "33866f529d557b34f1a061f23e322f14e1d7184d3da915834acfe822fa98c126"
+      },
+      {
+        "path": "fig-draw/figure-spec.schema.json",
+        "sha256": "51334d4774e0e400f1e3f38a73339cb2daa91874814981951d67ab9b333e396c"
+      },
+      {
+        "path": "fig-draw/json-schema.md",
+        "sha256": "79c76c8547ed83dd05eeac75b43a8f7e2dd7470c1763503a903c3cf62cd663be"
+      },
+      {
+        "path": "fig-draw/prompts/figure-worker.md",
+        "sha256": "40ac3fa7c011c753a95cffc9a02e188398974ae4170c45b64dfac18afbbe9d89"
+      },
+      {
+        "path": "fig-draw/references/architecture-icons.md",
+        "sha256": "6fcaa973d6b1bcd750deca386422cc26fd7fe37ed44b44da21b02dbf25d26916"
+      },
+      {
+        "path": "fig-draw/references/codex-image-workflow.md",
+        "sha256": "d0a2961f3fd79f84e239c77d1439675d3d969031105644434575a042c6319e76"
+      },
+      {
+        "path": "fig-draw/references/image-prompt-guide.md",
+        "sha256": "dbc5902b1b37ab33a5974c83122b3b23f4c73ed71a687e45132a27c2e98706a4"
+      },
+      {
+        "path": "fig-draw/references/json-to-prompt.md",
+        "sha256": "8b4a3264b956cd8943338ce3e358d051fcf9f1b77968a202debb07955b3528c7"
+      },
+      {
+        "path": "fig-draw/references/palettes.md",
+        "sha256": "3e62b94d7b22ab47b360d007a2061e86e6abb9e2d7114e6bbaa9c3aa584ddfaf"
+      },
+      {
+        "path": "fig-draw/references/previews/contrast_ablation_kan.jpg",
+        "sha256": "dba95e6e79f3c7a40c61fb1c5ecaa13d90cb1109532f02aaa00c32876ebc80f2"
+      },
+      {
+        "path": "fig-draw/references/previews/dual_fidelity_loop_labo.jpg",
+        "sha256": "743ea536b53b80150aa97ea6eec123ee2641c9fdc04b97ec0221d46f695f8196"
+      },
+      {
+        "path": "fig-draw/references/previews/illustrated_modular_agentic_matribo.jpg",
+        "sha256": "ef84cfac90aafb4ea216f50819a96ef0e6d9191a775568caab6e2aa1b7f45143"
+      },
+      {
+        "path": "fig-draw/references/previews/modern_technical_vector_deepseek_mla.jpg",
+        "sha256": "bec1ecba540a2ca7acb42ba088642e08f62f4bd4260c531c9010e4943741d68c"
+      },
+      {
+        "path": "fig-draw/references/previews/paired_semantic_zones_dash.jpg",
+        "sha256": "001f6a5d90dc5ad957691087cf43487ba7a6572b29a9d9b6c9e0e1c131686054"
+      },
+      {
+        "path": "fig-draw/references/previews/pastel_airy_ui_agentic_bo.jpg",
+        "sha256": "a814be2b38495c682c752ff687804815fd17691435454729344c95d852f03aa4"
+      },
+      {
+        "path": "fig-draw/references/prompt-design-cases.md",
+        "sha256": "8dc9df8908ebbc899df5ab57cb0128538c729bbb8cc92bf3ac19224bc77f7bf9"
+      },
+      {
+        "path": "fig-draw/references/prompt-design-logic.md",
+        "sha256": "db1da96a75481bd803aa1a4ac406d6f8f8575715c601c15ba6b28ebe9e5843e2"
+      },
+      {
+        "path": "fig-draw/references/prompt-templates.md",
+        "sha256": "a81853c6cf23bc3a57b43b2acc90a3dc484137df2fa34506dd398371faa0b7de"
+      },
+      {
+        "path": "fig-draw/references/render-audit.md",
+        "sha256": "a9cfc49487eafb1c1ca56e2a86c2fe88cdcd87bbb8c2ce1f47433b9600c24550"
+      },
+      {
+        "path": "fig-draw/references/style-catalog.md",
+        "sha256": "2c9efe7dbfb1adce622477665c0b97994b44a22805a96fce7dfc19bc0aeaae28"
+      },
+      {
+        "path": "fig-draw/references/styles/双保真度引导闭环风.md",
+        "sha256": "08042ef2445003fd2d7c026a2c8cf1889c0f56d5c67b5dd2540b4f54a9988165"
+      },
+      {
+        "path": "fig-draw/references/styles/对比消融实验风.md",
+        "sha256": "203dfaee3b8a5ac18365dbdf0c08eb735de85044ac2304908f28b7f03f74d6bc"
+      },
+      {
+        "path": "fig-draw/references/styles/有色语义分区图示风.md",
+        "sha256": "a3febb2a64173d1c83f8770f58a168ccfff4cb547721f1852ee32649d01e38a2"
+      },
+      {
+        "path": "fig-draw/references/styles/现代前沿技术框线风.md",
+        "sha256": "a6865eac8c79a2c3b78b290ca9396ccaf1cb3c7816e130e15ccfbaa57f755a46"
+      },
+      {
+        "path": "fig-draw/references/styles/现代柔彩空气风.md",
+        "sha256": "10f4babab74bb56c11c94c76b6246b275827ab34af39e464c0c8bb0cf2987d42"
+      },
+      {
+        "path": "fig-draw/references/styles/编辑手绘模块风.md",
+        "sha256": "0030fc9a324560a5758c2dc20e46f6dc5984fa24f1dc7e4a7e41001d4dc5a716"
+      },
+      {
+        "path": "fig-draw/scripts/clean_image_metadata.py",
+        "sha256": "36819ab61f0a43009527e74e8f5998a11e7abf8d10e54af90aa78f0fa94588f9"
+      },
+      {
+        "path": "fig-draw/scripts/validate_figure_spec.py",
+        "sha256": "dfd55d543d9c5b7ee3e3ccaee319d271db2d8485a4455caa325ba55f4b0095ba"
+      },
+      {
+        "path": "fig-draw/scripts/validate_render_audit.py",
+        "sha256": "35ddb55de32b093fac13c9d3eeb384115f7346cdd3b5fd1ba35f02359d8c422f"
+      },
+      {
+        "path": "fig-pptx/SKILL.md",
+        "sha256": "7d31b457b80a293b301a9bf498351abaaa0272e6098c6443f63b21d1732301c4"
+      },
+      {
+        "path": "fig-pptx/references/layers.md",
+        "sha256": "1d45e44eea48050cf09f9db1d2c8c09ddcbc69698af109b5ffa34240b75cbf49"
+      },
+      {
+        "path": "fig-pptx/scripts/chroma_key.py",
+        "sha256": "7a61d3307795a5cd5103479f10be62c64b13ef4fa91ec6c64c791ca2ef1ab205"
+      },
+      {
+        "path": "fig-pptx/scripts/compose_pptx.py",
+        "sha256": "7620c9c17768f82e1c6708a7b8905e3df5e7c0a1520be4f30125986fa49d914f"
+      },
+      {
+        "path": "fig-pptx/scripts/layout_guard.py",
+        "sha256": "0fd5cd67f9dd83036ff08ceb41481fffaf89a4d94c9cfdb9cb7721b333413e8c"
+      },
+      {
+        "path": "fig-pptx/scripts/pick_font.py",
+        "sha256": "4fb90c311dd01795b917ce104193adc3f469f787dba9dae4801caca10e6fb999"
+      },
+      {
+        "path": "fig-pptx/scripts/probe_palette.py",
+        "sha256": "006c27cdba55c6cdc44c192b39b13e93da67daa010a3a49795f776a2fff3d2e5"
+      },
+      {
+        "path": "fig-pptx/scripts/slice_grid.py",
+        "sha256": "500cbed0dceadd541d15a6a19128aef973836cbf37a67e3c59ee10c423b0f28e"
+      },
+      {
+        "path": "manifest.json",
+        "sha256": "ae291fe24567713c18349466407ae8471ce873afb17acaaf01d18c66db073f30"
+      },
+      {
+        "path": "scripts/create_sparse_fixture.py",
+        "sha256": "391076a3573ada3af2365c436704368e9a21cd14e49eaaed0445a3de0cd4e4c6"
+      },
+      {
+        "path": "scripts/fetch_benchmark_repos.py",
+        "sha256": "03ae7a9efb89c73bb505a772635297b37709fad2684930bd81e8a6b816d4b50d"
+      },
+      {
+        "path": "scripts/run_repo_benchmarks.py",
+        "sha256": "3aa8b776aafd45990a66f5fc03153a396d4731d320a444b3717f3e7633e08bd5"
+      },
+      {
+        "path": "scripts/validate_skill_pack.py",
+        "sha256": "769c80df77d36e63d8d291bc6b2f9f4d7e78d5de6fc3c81b601733c817883279"
+      },
+      {
+        "path": "tests/test_clean_image_metadata.py",
+        "sha256": "58be8b65d51725c8b9286412482c557e151b690f80b9bbf42a802a3ab17d3c23"
+      },
+      {
+        "path": "tests/test_fig_pptx.py",
+        "sha256": "c7a7f433b74022b690c4baea22d61020cfd165ef2da868bdfaeaa3e9bcbd7064"
+      },
+      {
+        "path": "tests/test_figure_spec_hardening.py",
+        "sha256": "9744502c2cbb1505088e8f71b46cb6b072dd7debcfc4037959f4b51fc37c10cf"
+      },
+      {
+        "path": "tests/test_render_audit.py",
+        "sha256": "57ea828dde325600d18d791f99c3f501906e070e8c054b77e3fff492cbb70b0c"
+      },
+      {
+        "path": "tests/test_validation.py",
+        "sha256": "93e35a4278b4fcf497f1e7372aeeeded4b135faf813338488d0494f730185b37"
+      }
+    ]
+  }
+]
