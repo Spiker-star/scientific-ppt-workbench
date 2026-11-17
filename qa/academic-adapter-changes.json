@@ -1,0 +1,67 @@
+[
+  {
+    "path": "fig-pptx/scripts/workbench_windows_fonts.py",
+    "before_sha256": null,
+    "after_sha256": "201e5921991fc957fc19b95e385d06a6355a8c011e3b51c87c0804ab0d23c387"
+  },
+  {
+    "path": "fig-pptx/scripts/compose_pptx.py",
+    "before_sha256": "7620c9c17768f82e1c6708a7b8905e3df5e7c0a1520be4f30125986fa49d914f",
+    "after_sha256": "7cc9aa6bebe212b47636cababb8bf88cdaddce89f3396b0cc7d06ee9678a1f5c"
+  },
+  {
+    "path": "fig-pptx/scripts/pick_font.py",
+    "before_sha256": "4fb90c311dd01795b917ce104193adc3f469f787dba9dae4801caca10e6fb999",
+    "after_sha256": "5751fac2313dbd4f9f17a5aed2ad5394c8f26cc0ca18a78538a35d7a90e4a76e"
+  },
+  {
+    "path": "fig-pptx/scripts/pick_font.py",
+    "before_sha256": "5751fac2313dbd4f9f17a5aed2ad5394c8f26cc0ca18a78538a35d7a90e4a76e",
+    "after_sha256": "545db44b9d150b6ddc429ffe02f058faa64bc6194df4c12f3bc358bf51d6b66b"
+  },
+  {
+    "path": "tests/test_validation.py",
+    "before_sha256": "93e35a4278b4fcf497f1e7372aeeeded4b135faf813338488d0494f730185b37",
+    "after_sha256": "33997b44a75fcfe38258b763cc883232ab7d23c34cc1b63dcaa74f5ddff19405"
+  },
+  {
+    "path": "tests/test_figure_spec_hardening.py",
+    "before_sha256": "9744502c2cbb1505088e8f71b46cb6b072dd7debcfc4037959f4b51fc37c10cf",
+    "after_sha256": "e5abf7232f6477370e77858004bcc415b3aac003e6b35d734640c11c7c032e96"
+  },
+  {
+    "path": "docs/prompts/contrast_ablation_kan.spec.json",
+    "before_sha256": "560ffa40e46650abebc097765bb6537170c9e64a27f2422ac84e4ee5504927ad",
+    "after_sha256": "5e38587d36b4b8924a21a8572ebcfea376d84434a00d1f9af34501d2262a9105"
+  },
+  {
+    "path": "docs/prompts/dual_fidelity_loop_labo.spec.json",
+    "before_sha256": "71cf9837226d8cc360a6dabb305d33be86c09bdac4433ee026adc3409d063b9f",
+    "after_sha256": "ea1a24524326dabb5390350410fca075b2739319535015afcb666c2941e5e1be"
+  },
+  {
+    "path": "docs/prompts/illustrated_modular_agentic_matribo.spec.json",
+    "before_sha256": "7f3a77f55fe17e33a5b9135be4a0a3dfec33b0b6430ee4cde8e10e19a62c7181",
+    "after_sha256": "824cea8885ff53ed1610b16c0484029868acc57eb7f00a050b2d43d9141923aa"
+  },
+  {
+    "path": "docs/prompts/modern_technical_vector_deepseek_mla.spec.json",
+    "before_sha256": "9653ddf6749cc3537608823f85a13a022b8cb1b20118b29f4b1a1fae265e96e6",
+    "after_sha256": "10d35aa73c987e18f9f999b1d6fbc9d6417a05872e16aa58ced01d68c613e3e2"
+  },
+  {
+    "path": "docs/prompts/paired_semantic_zones_dash.spec.json",
+    "before_sha256": "b905c9788537973d8a2ff8d64a465f6316533dc1b1892d4b0e215b9c5af275c2",
+    "after_sha256": "b1c7e04325c18c6b43cbd25ab14f047119c2c92b1dfad6ece15dad59719a98f2"
+  },
+  {
+    "path": "docs/prompts/pastel_airy_ui_agentic_bo.spec.json",
+    "before_sha256": "f5e9b20da15edf9e9db96f07ac3ecefe0bacf25043f26ddd6e6c616b949c36de",
+    "after_sha256": "b21b9fab8e400b57bd13f8a52ac9ca6ff7676892bf693edfe8f8f6158be918ff"
+  },
+  {
+    "path": "docs/prompts/pastel_airy_ui_swe_agent.spec.json",
+    "before_sha256": "47ae1ba843560a4be38fb749dd329f6239e7acbea99a74f9e98342dcee134aa6",
+    "after_sha256": "f3048bd14f79c76ad0e53277c928469f8645d48e2b894e93cec5f66d58a7db5d"
+  }
+]

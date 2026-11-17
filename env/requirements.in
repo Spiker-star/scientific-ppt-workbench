@@ -1,0 +1,5 @@
+# Offline upstream validation only; no AI provider or UI dependencies.
+python-pptx==1.0.2
+Pillow==11.3.0
+numpy==2.2.6
+fonttools==4.58.5

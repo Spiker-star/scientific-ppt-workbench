@@ -1,1 +1,1075 @@
-{"status":"pinned_pending_full_bundle_review","skills":[{"repo":"dwzhu-pku/PaperBanana","commit":"9ceea039be86dd40294361856a4b7bf097d9e2b7","manifest":[{"path":".all-contributorsrc","git_blob_sha":"0a9c57cfa99070a2cf5a9fe473c44651cc7e1976","size":8476},{"path":".gitattributes","git_blob_sha":"65f3c2ddb2a243668555e4d1e5ee0a481698b77d","size":2372},{"path":".gitignore","git_blob_sha":"80bf1b4cca4743d441f8a18c126827effbf1066a","size":159},{"path":"CONTRIBUTING.md","git_blob_sha":"9a86ba025d83dfc39db62d84ee7cac0a9da1ac08","size":1097},{"path":"Dockerfile","git_blob_sha":"e3d4e8a152b1d2bd43c57188fd12a4f9eb8f4790","size":516},{"path":"LICENSE","git_blob_sha":"7a4a3ea2424c09fbe48d455aed1eaa94d9124835","size":11357},{"path":"README.md","git_blob_sha":"5db3583ca598db4e0c05fef59143ed06d3d3d1a1","size":29049},{"path":"agents/__init__.py","git_blob_sha":"273c0ab102031343a4e3cd4bb9e83bc6a42187cd","size":572},{"path":"agents/base_agent.py","git_blob_sha":"139fc02fc73f3e6fbaef832680c10391acc268e8","size":1423},{"path":"agents/critic_agent.py","git_blob_sha":"16872800d14568fe46a3b86f34c5c8d90b2acb95","size":12957},{"path":"agents/planner_agent.py","git_blob_sha":"7af02334e0f457be8d8bdb7077daa9f3f8fee9a4","size":8625},{"path":"agents/polish_agent.py","git_blob_sha":"0d95011321f130cfa251bcea1d0011b1e03d748a","size":10790},{"path":"agents/retriever_agent.py","git_blob_sha":"9b29dc43eddfcc2d3e74191759ec515afd177592","size":15755},{"path":"agents/stylist_agent.py","git_blob_sha":"d0659a152049d1e1a5212fbe47881d2151680792","size":8224},{"path":"agents/vanilla_agent.py","git_blob_sha":"d5ce2fa47026ef30b45e06505826a18124ad0f2c","size":7266},{"path":"agents/visualizer_agent.py","git_blob_sha":"37a462267a99dda686fe8c84546f2d0b940d4662","size":9348},{"path":"app.py","git_blob_sha":"f0bde98f25df82152960414361416586930ae285","size":39927},{"path":"assets/dataset-on-hf-xl.svg","git_blob_sha":"1acaf4c7ad1835d9159b871a6baf8332e1458ce6","size":19025},{"path":"assets/logo.jpg","git_blob_sha":"f374a72f19a86e4dec72f7a7a3e50b37f5507fff","size":153878},{"path":"assets/method_diagram.png","git_blob_sha":"97bab9275b4f90c79b1a426b9bbf72507b1a9da4","size":5612318},{"path":"assets/paper-page-xl.svg","git_blob_sha":"75038aa827f609de2c1216008fb262604ba596cb","size":11044},{"path":"assets/spaces-hf-wordmark.png","git_blob_sha":"102dc4197b03f3bc1b5127f4ceabc1a2c4e8d5ba","size":5619},{"path":"assets/spaces-on-hf-xl.png","git_blob_sha":"caea68cab31fb03943ae9a1690d33121964992e9","size":28501},{"path":"assets/teaser_figure.jpg","git_blob_sha":"0aa74c0890eece6d15982fe39691de898d6b3d37","size":940119},{"path":"code-of-conduct.md","git_blob_sha":"6070ae1cd721d0ecd2dd92b993db72dc4a7f59d0","size":4599},{"path":"configs/model_config.template.yaml","git_blob_sha":"8ab574c02582a8caacfc1ba75c16edc3825dc4f5","size":2846},{"path":"demo.py","git_blob_sha":"0ed9444ab69276e1b89d486f40dd82a4ffc56bc0","size":48320},{"path":"index.html","git_blob_sha":"0b031cefb44243b8a603206611ab05edd0b8638d","size":23687},{"path":"main.py","git_blob_sha":"8e8c271954fe1047ab1c9319622ec8484aa6cb8a","size":5388},{"path":"notebooks/PaperBanana_Colab_End_to_End.ipynb","git_blob_sha":"f6cbc9e86cc63acd4ccc560d70b3304fcabd074e","size":148488},{"path":"prompts/__init__.py","git_blob_sha":"273c0ab102031343a4e3cd4bb9e83bc6a42187cd","size":572},{"path":"prompts/diagram_eval_prompts.py","git_blob_sha":"2b5c29a33b2e70c0eb279a1e978528c4d9192ee7","size":15146},{"path":"prompts/plot_eval_prompts.py","git_blob_sha":"e8dd57e87b182a2eb801c55c04babf40e51347ec","size":19007},{"path":"requirements.txt","git_blob_sha":"3ab096b72a3f23bce93914864cb08def2de59c32","size":1174},{"path":"scripts/prepare_bench.py","git_blob_sha":"c804801b0b8448e8a20ba772a0852c4ef2699140","size":3383},{"path":"scripts/run_demo.sh","git_blob_sha":"a7c037a7f67d046062da929f5b178f47f0139511","size":1502},{"path":"scripts/run_main.sh","git_blob_sha":"9553ef6b6b932b4018551641ee4de126ba4fa693","size":756},{"path":"skill/SKILL.md","git_blob_sha":"5eb8225a00fd59f14dc38c770df2dd63dfe48b9b","size":4210},{"path":"skill/clawhub.json","git_blob_sha":"49aa4a797f367f753db2c225fe7aef7c465103be","size":144},{"path":"skill/run.py","git_blob_sha":"3cbb411f0fd144f55b3072587caf77bcb34c0eb4","size":15814},{"path":"static/css/bulma-carousel.min.css","git_blob_sha":"4d4b7d103e0013f64e4dedd2ad0b2947cc0d11a5","size":3645},{"path":"static/css/bulma-slider.min.css","git_blob_sha":"09b4aeb2fb19d7d883a0b01cb1982cb382992f95","size":13782},{"path":"static/css/bulma.min.css","git_blob_sha":"a807a314caa0df0ddccacd6b732d83f5ffde7a89","size":204030},{"path":"static/css/fontawesome.all.min.css","git_blob_sha":"ab5134cf81d2a533ea021478b752d36084edb0f3","size":59348},{"path":"static/css/index.css","git_blob_sha":"f1e49f58db38046491591dc18bc083d5cd14913d","size":2275},{"path":"static/images/case_diagram.png","git_blob_sha":"a45e500276c08db016ff5ac04c126b22489ef00b","size":1741425},{"path":"static/images/case_failure.png","git_blob_sha":"ce863d5343a30dcb91271bf2967c6eeb82bb9e21","size":1501744},{"path":"static/images/case_plot_img_vs_code.png","git_blob_sha":"4fee01eb036bea3b2e0f9bd80686e74ca74e484f","size":947369},{"path":"static/images/case_style_polish.png","git_blob_sha":"8cd455cad2bddc4121bbe6ff573dc1aeaba0aa0c","size":1929452},{"path":"static/images/discussion_enhance_style.jpg","git_blob_sha":"66bacd466d5dfb91051fa947d1a05dd1578e51a4","size":269918},{"path":"static/images/logo.jpg","git_blob_sha":"f374a72f19a86e4dec72f7a7a3e50b37f5507fff","size":153878},{"path":"static/images/main_results.png","git_blob_sha":"081c9e6e8036f77508fda0f84beedabc2df841f1","size":133905},{"path":"static/images/method_diagram.png","git_blob_sha":"97bab9275b4f90c79b1a426b9bbf72507b1a9da4","size":5612318},{"path":"static/images/plot_bench_stat.jpg","git_blob_sha":"0705548cbe547803d775c99233798af97f35194f","size":298073},{"path":"static/images/plot_code_vs_img.jpg","git_blob_sha":"3c2fa16257f14e13fbfebe7529403ef64254338a","size":665426},{"path":"static/images/plot_vanilla_vs_ours_v2.jpg","git_blob_sha":"8f8b2c9383379999cebb7b30180a3de1911f33e0","size":593234},{"path":"static/images/teaser_figure.jpg","git_blob_sha":"0aa74c0890eece6d15982fe39691de898d6b3d37","size":940119},{"path":"static/js/bulma-carousel.js","git_blob_sha":"2f44c7c197f0782bcc63da042ee0c4adbbf0cb7e","size":85193},{"path":"static/js/bulma-carousel.min.js","git_blob_sha":"5fff0695f00cf9da60dd87aa72c51367b00e92ff","size":40723},{"path":"static/js/bulma-slider.js","git_blob_sha":"225b8af5da4b86c2f0d5673a3af258c93657f365","size":16864},{"path":"static/js/bulma-slider.min.js","git_blob_sha":"7e62685763cf7668cfa8857fac0b27af2c277286","size":6926},{"path":"static/js/fontawesome.all.min.js","git_blob_sha":"10eea08c48353e56760caab10a82160dee76b718","size":1194964},{"path":"style_guides/generate_category_style_guide.py","git_blob_sha":"8e1aea7caf1c8d586baa3c5e83d90b7c5b51d690","size":14057},{"path":"style_guides/neurips2025_diagram_style_guide.md","git_blob_sha":"25b4d31be90404d9c31638e439fddc11e15b5eab","size":6270},{"path":"style_guides/neurips2025_plot_style_guide.md","git_blob_sha":"330aa702cbc6ed5222424c59bfe067693db6cefb","size":6034},{"path":"tests/test_api_route_provider.py","git_blob_sha":"e33728cf59afae904e52813b89b04b79be30746e","size":3900},{"path":"tests/test_atlascloud_provider.py","git_blob_sha":"335330b56ee31fdbb629ba60280a23d1efec8a41","size":2513},{"path":"tests/test_cloudgpu_provider.py","git_blob_sha":"e7048f34ea4253ed9524dfd66406bfa8cbf54a55","size":2468},{"path":"tests/test_critic_round_scan.py","git_blob_sha":"b7b903968f7998441d5b75de6bd7f3f0103455a6","size":1772},{"path":"tests/test_demo_saved_results.py","git_blob_sha":"6f0e166104927b1b98e058bc02e216d3df66c9b8","size":11336},{"path":"tests/test_legacy_generation_options.py","git_blob_sha":"692c355ad9737a66a8f7f2367d2a686a497f9452","size":4895},{"path":"tests/test_legacy_plot_agents.py","git_blob_sha":"061d22edf1044562f51a6206ebdfe67ce84e2465","size":7297},{"path":"tests/test_legacy_ui_result_keys.py","git_blob_sha":"d55fd6b044abe8756a56e1e7d416e5bb4e5008ef","size":9630},{"path":"tests/test_litellm_provider.py","git_blob_sha":"beff7b33ed021ea5ed2fe48c87ec42e6ba74e938","size":11319},{"path":"tests/test_local_openai_route.py","git_blob_sha":"82915d19599a66bacedb8cfd1bdddeff0fd89a37","size":12486},{"path":"tests/test_max_critic_rounds.py","git_blob_sha":"b4a6ffd819b052d62775f7632ded591c8d3ccb63","size":6231},{"path":"tests/test_orcarouter_provider.py","git_blob_sha":"b7006e7aa719549e3f48a76471cde14f546fff31","size":9963},{"path":"tests/test_planner_metaphor.py","git_blob_sha":"6e3bbf3eb51bbcb452d1fcab602c1efa2045203a","size":3078},{"path":"tests/test_plot_execution.py","git_blob_sha":"1aab0dc84e057570ef530629c36a3ef9b5f55dff","size":1749},{"path":"tests/test_prepare_bench.py","git_blob_sha":"c09ddd44c8f336f7bae8ba4bcd7c8bff9b7116d3","size":6735},{"path":"tests/test_progress_tracker.py","git_blob_sha":"017ec1a70c24bfbdce6fd8f7be018b09a9ca3ccb","size":22237},{"path":"tests/test_provider_routing.py","git_blob_sha":"e7cf2c84d8c323f8d54e7a3e00b03c23365e95dc","size":28574},{"path":"tests/test_refine_jpeg_encoding.py","git_blob_sha":"6dedb29382c133df495bd5ee4872aa61daadbd20","size":2638},{"path":"tests/test_runcrate_provider.py","git_blob_sha":"c0a3ef73de07984cd18da1df63a72016fe336f05","size":2513},{"path":"tests/test_skill_run_dataset.py","git_blob_sha":"571f4984fb8da00458ebed753f1c4e5539efba6f","size":11024},{"path":"tests/test_skill_run_figure_size.py","git_blob_sha":"09628796e5cba3b10fcd45fbbf454cd788c7165c","size":3378},{"path":"tests/test_visualizer_critic_rounds.py","git_blob_sha":"98b1ed25e2d45e5e421e268d12390840c0960047","size":4309},{"path":"utils/__init__.py","git_blob_sha":"273c0ab102031343a4e3cd4bb9e83bc6a42187cd","size":572},{"path":"utils/config.py","git_blob_sha":"ee6290473f8c8be94217457c51793c2f7a6813d3","size":3717},{"path":"utils/critic_rounds.py","git_blob_sha":"dfde04569a7b5476851ab893c1b01d99011f7047","size":3098},{"path":"utils/eval_toolkits.py","git_blob_sha":"818eb39b65c76df431febd0e298f0c3551895f9e","size":12448},{"path":"utils/generation_utils.py","git_blob_sha":"897c4325258557db9fb9c7ece163b345a875b68b","size":57083},{"path":"utils/image_utils.py","git_blob_sha":"059e119a78737f05d707bb16bcbb23926943dd50","size":2396},{"path":"utils/legacy_generation_options.py","git_blob_sha":"96cd7f15e4d0af18b04a14e45cbd09594f1dae60","size":2670},{"path":"utils/legacy_ui_results.py","git_blob_sha":"41c001c1eddb7064b11e6bf4f4077b0e243000b2","size":10389},{"path":"utils/paperviz_processor.py","git_blob_sha":"0bf0786b132ba84b0cb0810840cbe66a2c51c2df","size":24969},{"path":"utils/plot_execution.py","git_blob_sha":"b9e9e603ab3f44b2c99e85aee029092381811422","size":1976},{"path":"visualize/show_pipeline_evolution.py","git_blob_sha":"4ed2785c907e92a14f0c180da77b0c4e45d611dd","size":14216},{"path":"visualize/show_referenced_eval.py","git_blob_sha":"9e12c39287f724f0bdb0ad2c41e9e81c9e047ff7","size":18137}]},{"repo":"Azhi-ss/academic-figure-skills","commit":"73545d2f2227b03a185c8834709c7808ada5b0cb","manifest":[{"path":".gitignore","git_blob_sha":"3bd6f4255358263c7a71d2078ffe47efcb48d6a2","size":361},{"path":"CHANGELOG.md","git_blob_sha":"20dde551aaab74b62214a1919f387d75035e9451","size":19979},{"path":"CONTRIBUTING.md","git_blob_sha":"3ade0c9246a25507456c4e7a88f2206c86ae3af2","size":7638},{"path":"LICENSE","git_blob_sha":"c73a350e346122daf3bc39e9a31bc1943492326f","size":1064},{"path":"README.md","git_blob_sha":"6c9b6e4c5bebb55ef4f1f0a27c6748b029f763eb","size":23762},{"path":"docs/academic-references.md","git_blob_sha":"d67f3ccb639e2740590c6d94c41542b2c3212c78","size":6476},{"path":"docs/best-practices.md","git_blob_sha":"2d8e08f2eb8925ff2608f852d89b99ea7d58fae4","size":13247},{"path":"docs/gallery/contrast_ablation_kan.jpg","git_blob_sha":"c2a943b09d2b729f5e42e807ef23464ec93743f3","size":585266},{"path":"docs/gallery/dual_fidelity_loop_labo.jpg","git_blob_sha":"59ed8a1d48216bcc2987a4787b32bfe1b6c17a99","size":593297},{"path":"docs/gallery/illustrated_modular_agentic_matribo.jpg","git_blob_sha":"018a5633d8edb4677f01e8ba1e7233dc526b7a59","size":794622},{"path":"docs/gallery/modern_technical_vector_deepseek_mla.jpg","git_blob_sha":"df92b2b363b55c80edbfbe72bf4f956832c49d44","size":626695},{"path":"docs/gallery/paired_semantic_zones_dash.jpg","git_blob_sha":"1cfbb4ef7d5605c3e8a0343e31dd32a0d3de0940","size":574687},{"path":"docs/gallery/pastel_airy_ui_agentic_bo.jpg","git_blob_sha":"9d667deebc997c7d4925025168ce04f7352fc5e8","size":198343},{"path":"docs/gallery/pastel_airy_ui_swe_agent.jpg","git_blob_sha":"6f98c2040c72fefd9dcf247bbe2a7c12122eb6c2","size":476548},{"path":"docs/prompts/contrast_ablation_kan.spec.json","git_blob_sha":"d676920c72716738e79233a023222b089811068c","size":8505},{"path":"docs/prompts/dual_fidelity_loop_labo.spec.json","git_blob_sha":"3eb4ba3db7fafadd47b523400f72cafec978cbc3","size":10984},{"path":"docs/prompts/illustrated_modular_agentic_matribo.spec.json","git_blob_sha":"f448fb02b7343fb48809c2b6d8e526143b4146ae","size":22042},{"path":"docs/prompts/modern_technical_vector_deepseek_mla.spec.json","git_blob_sha":"e8ded2ff1fc11bbfcec33ef8a77ab167a9f17c8b","size":10201},{"path":"docs/prompts/paired_semantic_zones_dash.spec.json","git_blob_sha":"9e5b6745420de23643f5543145a3c5ab6eb60420","size":8428},{"path":"docs/prompts/pastel_airy_ui_agentic_bo.spec.json","git_blob_sha":"f0d245b343a9baeb01de5126c0643985c784ef60","size":11377},{"path":"docs/prompts/pastel_airy_ui_swe_agent.spec.json","git_blob_sha":"bc346d650fc646257b11468fd0693974535af22a","size":9626},{"path":"docs/styles.md","git_blob_sha":"3e62bea3c3325223b9b3932133b4a71482117220","size":4910},{"path":"examples/benchmarks/README.md","git_blob_sha":"7f7a25c543209eeace988550f950c38a8fe972ef","size":3609},{"path":"examples/benchmarks/alphafold/figure-plan.md","git_blob_sha":"6bc2116d062d5a45fe49ed9dbe8336c79bb7fbbe","size":1397},{"path":"examples/benchmarks/alphafold/prompt-spec.json","git_blob_sha":"2db912ce8344a825fb0fdd586e8a173f2694bb41","size":3983},{"path":"examples/benchmarks/alphafold/quick-understanding.md","git_blob_sha":"7567c9aa2561202daa8f2fbe381c833c54365120","size":2692},{"path":"examples/benchmarks/cyclegan/figure-plan.md","git_blob_sha":"62c1f4485d765cf5324b9701dd5c538143b95900","size":1607},{"path":"examples/benchmarks/cyclegan/prompt-spec.json","git_blob_sha":"caf1eb30674338724a11354498773a2d9859ef7c","size":3560},{"path":"examples/benchmarks/cyclegan/quick-understanding.md","git_blob_sha":"2fa139f6f95c15fd44b0192b47e947291d80b683","size":3199},{"path":"examples/benchmarks/detr/figure-plan.md","git_blob_sha":"26746327c75d9dc07bede8bcee2838ef24777c26","size":1560},{"path":"examples/benchmarks/detr/prompt-spec.json","git_blob_sha":"0bde15c8ae3b8fd7e35ecb688390a3e739b76c72","size":3875},{"path":"examples/benchmarks/detr/quick-understanding.md","git_blob_sha":"fbc2acff44de9ce875c1322a37db45ea1368c826","size":3565},{"path":"examples/benchmarks/esm/figure-plan.md","git_blob_sha":"f4d18069d94393d47a0506e496e1ad699bc25a6b","size":1386},{"path":"examples/benchmarks/esm/prompt-spec.json","git_blob_sha":"934d878ef56807137d7c05812af6ef82d3fe6ace","size":3626},{"path":"examples/benchmarks/esm/quick-understanding.md","git_blob_sha":"6eadb29a49ffe51774f52237b28ee5f33ea6b4e9","size":2769},{"path":"examples/benchmarks/fixture-sparse/figure-plan.md","git_blob_sha":"577cdcc28c60856fab42a79cc0a76e600c1ed910","size":1322},{"path":"examples/benchmarks/fixture-sparse/prompt-spec.json","git_blob_sha":"51218251f617cb46cd3b61942bc52c67656b47ca","size":2967},{"path":"examples/benchmarks/fixture-sparse/quick-understanding.md","git_blob_sha":"f1b5892e3c97bfeb567909a1123f3e668e076200","size":2357},{"path":"examples/benchmarks/graphcast/figure-plan.md","git_blob_sha":"cf21eddaeeaf53649f597ca7fcab4d83c5d5f44a","size":1416},{"path":"examples/benchmarks/graphcast/prompt-spec.json","git_blob_sha":"54505689f99c7ad6006b835faa0b8892eb66aa71","size":3381},{"path":"examples/benchmarks/graphcast/quick-understanding.md","git_blob_sha":"166718bd3f65a924dd5f1e3df656a2b759f90b25","size":2698},{"path":"examples/benchmarks/manifest.json","git_blob_sha":"481ec7a4d2e111fafa5171c76f3709cd80142a0b","size":2764},{"path":"examples/benchmarks/nanogpt/figure-plan.md","git_blob_sha":"4877ec18977dd3138b3064966a577d1ff2948e3e","size":1345},{"path":"examples/benchmarks/nanogpt/prompt-spec.json","git_blob_sha":"b1976c41f56b851a2caaabdaa24d80a773dd2bf2","size":3559},{"path":"examples/benchmarks/nanogpt/quick-understanding.md","git_blob_sha":"bee0d52a7c37a22ddd102a6a76148e7749f8aac1","size":2445},{"path":"examples/benchmarks/nerf/figure-plan.md","git_blob_sha":"615f54aea544c975fcabcf05e5ac0847c1e444ff","size":1492},{"path":"examples/benchmarks/nerf/prompt-spec.json","git_blob_sha":"239fc2282f5bf19860aa7208953f368e43e3cfa1","size":3749},{"path":"examples/benchmarks/nerf/quick-understanding.md","git_blob_sha":"0d7e8127bad6d5c2e60d99020ba779eeafdc0f41","size":3250},{"path":"examples/benchmarks/stable-diffusion/figure-plan.md","git_blob_sha":"0d426846a34a8592f09d487b24b81c60d541f495","size":1446},{"path":"examples/benchmarks/stable-diffusion/prompt-spec.json","git_blob_sha":"a7c565503c108f5f0f25d596ef516e9c2a3f26cf","size":3467},{"path":"examples/benchmarks/stable-diffusion/quick-understanding.md","git_blob_sha":"9c9e8b169b150f4cd1f5970053e919b43de86022","size":2953},{"path":"examples/benchmarks/transformers/figure-plan.md","git_blob_sha":"5c4c7baab3af00074ec24b0eba5de7c0ecf591e0","size":1407},{"path":"examples/benchmarks/transformers/prompt-spec.json","git_blob_sha":"9f7c0b6490f93b2faa85f6f5dc39634e17a1a710","size":3977},{"path":"examples/benchmarks/transformers/quick-understanding.md","git_blob_sha":"c28a829586e8312d80e65d94ad99b1bdf53a1be2","size":3050},{"path":"examples/benchmarks/whisper/figure-plan.md","git_blob_sha":"b2d255373e81e66173c96b15a089eda182888fd4","size":1591},{"path":"examples/benchmarks/whisper/prompt-spec.json","git_blob_sha":"30245bb4421aac0a09205aaaa39c749764984422","size":3441},{"path":"examples/benchmarks/whisper/quick-understanding.md","git_blob_sha":"c725eb3f06a6b127d1051f0c38ffe12b8ec52f45","size":3436},{"path":"examples/orchestration/parallel-figures.md","git_blob_sha":"e31926db4f478a29aa1d02b6f847d4f4aef8d85b","size":3278},{"path":"fig-analyze/SKILL.md","git_blob_sha":"ab3824977e7eda22e9222dea40c4175634acdd3c","size":2780},{"path":"fig-analyze/references/keywords.md","git_blob_sha":"f86166ca793a36ab0d050742ea99ef18a1d2223b","size":2258},{"path":"fig-analyze/references/missing-info-policy.md","git_blob_sha":"b39dd442d1c5fa0a8a355a933c994d312a1d18b6","size":1075},{"path":"fig-analyze/references/paper.md","git_blob_sha":"8f02cb31c7360be77e7e88c7ea23c28122de29f1","size":7609},{"path":"fig-analyze/references/reference-figure.md","git_blob_sha":"7e82e415952cd7a53785b6559ef5f619775fcef1","size":4834},{"path":"fig-analyze/references/repo.md","git_blob_sha":"5d335d4d5869436fce11e6c730e68b2192512d11","size":6018},{"path":"fig-analyze/scripts/extract_pdf_figures.py","git_blob_sha":"9177613dbbb4a4c18ccf94cd70a4b602ddf9e6ca","size":9596},{"path":"fig-draw/SKILL.md","git_blob_sha":"041e9c707dde78f63e917f89298dc0ba88c31f6a","size":22418},{"path":"fig-draw/figure-spec.schema.json","git_blob_sha":"63dbda5f0014574424ae731b2a3bb6038b6dcda4","size":8674},{"path":"fig-draw/json-schema.md","git_blob_sha":"632f2a4f33a17501bfdd35df3f5730c36ef607fa","size":9174},{"path":"fig-draw/prompts/figure-worker.md","git_blob_sha":"839c96a14c1d1973e28e5cca5979ea52036ebeaf","size":6838},{"path":"fig-draw/references/architecture-icons.md","git_blob_sha":"812b88f37718b44d13461072ca8c5560113826e8","size":10824},{"path":"fig-draw/references/codex-image-workflow.md","git_blob_sha":"0c002f2628fbc1a32ffc6a176fecc6a62055c31e","size":10035},{"path":"fig-draw/references/image-prompt-guide.md","git_blob_sha":"4ad95cae6d16a290d22172dd17f8d1fd51302b10","size":6539},{"path":"fig-draw/references/json-to-prompt.md","git_blob_sha":"c8ff5d209b1042d0a80fb57cd9dfa1ddbc289358","size":7422},{"path":"fig-draw/references/palettes.md","git_blob_sha":"dc868001210050a78111264d52cead5d9b1ee2b6","size":21169},{"path":"fig-draw/references/previews/contrast_ablation_kan.jpg","git_blob_sha":"c2a943b09d2b729f5e42e807ef23464ec93743f3","size":585266},{"path":"fig-draw/references/previews/dual_fidelity_loop_labo.jpg","git_blob_sha":"59ed8a1d48216bcc2987a4787b32bfe1b6c17a99","size":593297},{"path":"fig-draw/references/previews/illustrated_modular_agentic_matribo.jpg","git_blob_sha":"018a5633d8edb4677f01e8ba1e7233dc526b7a59","size":794622},{"path":"fig-draw/references/previews/modern_technical_vector_deepseek_mla.jpg","git_blob_sha":"df92b2b363b55c80edbfbe72bf4f956832c49d44","size":626695},{"path":"fig-draw/references/previews/paired_semantic_zones_dash.jpg","git_blob_sha":"1cfbb4ef7d5605c3e8a0343e31dd32a0d3de0940","size":574687},{"path":"fig-draw/references/previews/pastel_airy_ui_agentic_bo.jpg","git_blob_sha":"9d667deebc997c7d4925025168ce04f7352fc5e8","size":198343},{"path":"fig-draw/references/prompt-design-cases.md","git_blob_sha":"f8d2f32058abd20c3f3af99f93bd365e1f39eaee","size":6995},{"path":"fig-draw/references/prompt-design-logic.md","git_blob_sha":"d1e6a02926d4c2d29efe36317c7f4fefcb031b8d","size":9263},{"path":"fig-draw/references/prompt-templates.md","git_blob_sha":"d5334b91d80aaa7b9fb10edf32c19b9b0c5e66f6","size":5985},{"path":"fig-draw/references/render-audit.md","git_blob_sha":"df640943994ecc9e612dc963d3c7ccd04b7393c9","size":11668},{"path":"fig-draw/references/style-catalog.md","git_blob_sha":"af6a3a7d2631eda82c795d08efcc7b746ff55002","size":1528},{"path":"fig-draw/references/styles/双保真度引导闭环风.md","git_blob_sha":"a36d7adedaddebb3524a2e09cabdfc27e4a68663","size":7417},{"path":"fig-draw/references/styles/对比消融实验风.md","git_blob_sha":"17ad2a88d6ee727e4efa1836ae83287aaa897a2b","size":3410},{"path":"fig-draw/references/styles/有色语义分区图示风.md","git_blob_sha":"53ce6950b05200423162818f50270dfdb60125af","size":5286},{"path":"fig-draw/references/styles/现代前沿技术框线风.md","git_blob_sha":"6aed4eb89e845e6d4d7a04107f767e3ab4b7b045","size":3494},{"path":"fig-draw/references/styles/现代柔彩空气风.md","git_blob_sha":"bbea42bec37aad1f8b5cee0313a285addce06566","size":8144},{"path":"fig-draw/references/styles/编辑手绘模块风.md","git_blob_sha":"298aab62cdfb269d25a32d5122e63a98c8cbc34c","size":11615},{"path":"fig-draw/scripts/clean_image_metadata.py","git_blob_sha":"3bbfd4dd87c3951d2a1ecf806910b7bc4b3809ff","size":4427},{"path":"fig-draw/scripts/validate_figure_spec.py","git_blob_sha":"bb24e33134f7cbe65a475ba8782c7ab40b399d40","size":24817},{"path":"fig-draw/scripts/validate_render_audit.py","git_blob_sha":"7fae28d7b93f4c71e514b6dee8fcec068b3b7cfd","size":11610},{"path":"fig-pptx/SKILL.md","git_blob_sha":"c9c0d55244c64610f0353510b8dfa6721643dd9e","size":2167},{"path":"fig-pptx/references/layers.md","git_blob_sha":"c390eccbff60ccbce2fa0b3e09d9d776158849f7","size":4913},{"path":"fig-pptx/scripts/chroma_key.py","git_blob_sha":"1288970a11934b0c2848a7c8b6bc8f4d9313578c","size":15470},{"path":"fig-pptx/scripts/compose_pptx.py","git_blob_sha":"ab951600fba6b8bc0ce52963446531cafb66f5a3","size":27999},{"path":"fig-pptx/scripts/layout_guard.py","git_blob_sha":"5d57f35b61d0d48966d5aae89a81ada8e281ada1","size":13708},{"path":"fig-pptx/scripts/pick_font.py","git_blob_sha":"09e8537b05e20422419c4bd69d797d8099c172f7","size":2779},{"path":"fig-pptx/scripts/probe_palette.py","git_blob_sha":"8a2f0bdc551bd098597110f3ae3348628b223aba","size":4878},{"path":"fig-pptx/scripts/slice_grid.py","git_blob_sha":"c6aeea059635b6619544316b4538851775fe04c1","size":17003},{"path":"manifest.json","git_blob_sha":"23fd0f5fe8bd4fecfde254405f17b541c06365f9","size":4653},{"path":"scripts/create_sparse_fixture.py","git_blob_sha":"746e4b70cffb9bc31b142bd04eec245a4edd545b","size":1434},{"path":"scripts/fetch_benchmark_repos.py","git_blob_sha":"91cc52163059a497b65748741b597e932afe8f94","size":2824},{"path":"scripts/run_repo_benchmarks.py","git_blob_sha":"c559c9d1607ef1f278ca6732b9ddb9a117494618","size":8760},{"path":"scripts/validate_skill_pack.py","git_blob_sha":"7776cafeb0e8395ef5f4c596f6dd0037463feeb3","size":10770},{"path":"tests/test_clean_image_metadata.py","git_blob_sha":"a58e080296ff2cb5b17c8f266173b6ce434ed5fc","size":2293},{"path":"tests/test_fig_pptx.py","git_blob_sha":"6f92dc3eca5573f56b5eead0ba2a3e44d1d1db5d","size":3712},{"path":"tests/test_figure_spec_hardening.py","git_blob_sha":"a8ca8441531ebc982715aa4c01423e52996a7482","size":20879},{"path":"tests/test_render_audit.py","git_blob_sha":"e4d05580ee0f31fab2b65e3400260b2453b3f78a","size":12765},{"path":"tests/test_validation.py","git_blob_sha":"67dd0561d8188822d5230bd0bfea58efc74c7fdf","size":9532}]}],"excluded":["academic-pptx-skill"]}
+{
+  "status": "pinned_offline_compatibility_validated_live_inference_unverified",
+  "skills": [
+    {
+      "repo": "dwzhu-pku/PaperBanana",
+      "commit": "9ceea039be86dd40294361856a4b7bf097d9e2b7",
+      "manifest": [
+        {
+          "path": ".all-contributorsrc",
+          "git_blob_sha": "0a9c57cfa99070a2cf5a9fe473c44651cc7e1976",
+          "size": 8476
+        },
+        {
+          "path": ".gitattributes",
+          "git_blob_sha": "65f3c2ddb2a243668555e4d1e5ee0a481698b77d",
+          "size": 2372
+        },
+        {
+          "path": ".gitignore",
+          "git_blob_sha": "80bf1b4cca4743d441f8a18c126827effbf1066a",
+          "size": 159
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "git_blob_sha": "9a86ba025d83dfc39db62d84ee7cac0a9da1ac08",
+          "size": 1097
+        },
+        {
+          "path": "Dockerfile",
+          "git_blob_sha": "e3d4e8a152b1d2bd43c57188fd12a4f9eb8f4790",
+          "size": 516
+        },
+        {
+          "path": "LICENSE",
+          "git_blob_sha": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835",
+          "size": 11357
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "5db3583ca598db4e0c05fef59143ed06d3d3d1a1",
+          "size": 29049
+        },
+        {
+          "path": "agents/__init__.py",
+          "git_blob_sha": "273c0ab102031343a4e3cd4bb9e83bc6a42187cd",
+          "size": 572
+        },
+        {
+          "path": "agents/base_agent.py",
+          "git_blob_sha": "139fc02fc73f3e6fbaef832680c10391acc268e8",
+          "size": 1423
+        },
+        {
+          "path": "agents/critic_agent.py",
+          "git_blob_sha": "16872800d14568fe46a3b86f34c5c8d90b2acb95",
+          "size": 12957
+        },
+        {
+          "path": "agents/planner_agent.py",
+          "git_blob_sha": "7af02334e0f457be8d8bdb7077daa9f3f8fee9a4",
+          "size": 8625
+        },
+        {
+          "path": "agents/polish_agent.py",
+          "git_blob_sha": "0d95011321f130cfa251bcea1d0011b1e03d748a",
+          "size": 10790
+        },
+        {
+          "path": "agents/retriever_agent.py",
+          "git_blob_sha": "9b29dc43eddfcc2d3e74191759ec515afd177592",
+          "size": 15755
+        },
+        {
+          "path": "agents/stylist_agent.py",
+          "git_blob_sha": "d0659a152049d1e1a5212fbe47881d2151680792",
+          "size": 8224
+        },
+        {
+          "path": "agents/vanilla_agent.py",
+          "git_blob_sha": "d5ce2fa47026ef30b45e06505826a18124ad0f2c",
+          "size": 7266
+        },
+        {
+          "path": "agents/visualizer_agent.py",
+          "git_blob_sha": "37a462267a99dda686fe8c84546f2d0b940d4662",
+          "size": 9348
+        },
+        {
+          "path": "app.py",
+          "git_blob_sha": "f0bde98f25df82152960414361416586930ae285",
+          "size": 39927
+        },
+        {
+          "path": "assets/dataset-on-hf-xl.svg",
+          "git_blob_sha": "1acaf4c7ad1835d9159b871a6baf8332e1458ce6",
+          "size": 19025
+        },
+        {
+          "path": "assets/logo.jpg",
+          "git_blob_sha": "f374a72f19a86e4dec72f7a7a3e50b37f5507fff",
+          "size": 153878
+        },
+        {
+          "path": "assets/method_diagram.png",
+          "git_blob_sha": "97bab9275b4f90c79b1a426b9bbf72507b1a9da4",
+          "size": 5612318
+        },
+        {
+          "path": "assets/paper-page-xl.svg",
+          "git_blob_sha": "75038aa827f609de2c1216008fb262604ba596cb",
+          "size": 11044
+        },
+        {
+          "path": "assets/spaces-hf-wordmark.png",
+          "git_blob_sha": "102dc4197b03f3bc1b5127f4ceabc1a2c4e8d5ba",
+          "size": 5619
+        },
+        {
+          "path": "assets/spaces-on-hf-xl.png",
+          "git_blob_sha": "caea68cab31fb03943ae9a1690d33121964992e9",
+          "size": 28501
+        },
+        {
+          "path": "assets/teaser_figure.jpg",
+          "git_blob_sha": "0aa74c0890eece6d15982fe39691de898d6b3d37",
+          "size": 940119
+        },
+        {
+          "path": "code-of-conduct.md",
+          "git_blob_sha": "6070ae1cd721d0ecd2dd92b993db72dc4a7f59d0",
+          "size": 4599
+        },
+        {
+          "path": "configs/model_config.template.yaml",
+          "git_blob_sha": "8ab574c02582a8caacfc1ba75c16edc3825dc4f5",
+          "size": 2846
+        },
+        {
+          "path": "demo.py",
+          "git_blob_sha": "0ed9444ab69276e1b89d486f40dd82a4ffc56bc0",
+          "size": 48320
+        },
+        {
+          "path": "index.html",
+          "git_blob_sha": "0b031cefb44243b8a603206611ab05edd0b8638d",
+          "size": 23687
+        },
+        {
+          "path": "main.py",
+          "git_blob_sha": "8e8c271954fe1047ab1c9319622ec8484aa6cb8a",
+          "size": 5388
+        },
+        {
+          "path": "notebooks/PaperBanana_Colab_End_to_End.ipynb",
+          "git_blob_sha": "f6cbc9e86cc63acd4ccc560d70b3304fcabd074e",
+          "size": 148488
+        },
+        {
+          "path": "prompts/__init__.py",
+          "git_blob_sha": "273c0ab102031343a4e3cd4bb9e83bc6a42187cd",
+          "size": 572
+        },
+        {
+          "path": "prompts/diagram_eval_prompts.py",
+          "git_blob_sha": "2b5c29a33b2e70c0eb279a1e978528c4d9192ee7",
+          "size": 15146
+        },
+        {
+          "path": "prompts/plot_eval_prompts.py",
+          "git_blob_sha": "e8dd57e87b182a2eb801c55c04babf40e51347ec",
+          "size": 19007
+        },
+        {
+          "path": "requirements.txt",
+          "git_blob_sha": "3ab096b72a3f23bce93914864cb08def2de59c32",
+          "size": 1174
+        },
+        {
+          "path": "scripts/prepare_bench.py",
+          "git_blob_sha": "c804801b0b8448e8a20ba772a0852c4ef2699140",
+          "size": 3383
+        },
+        {
+          "path": "scripts/run_demo.sh",
+          "git_blob_sha": "a7c037a7f67d046062da929f5b178f47f0139511",
+          "size": 1502
+        },
+        {
+          "path": "scripts/run_main.sh",
+          "git_blob_sha": "9553ef6b6b932b4018551641ee4de126ba4fa693",
+          "size": 756
+        },
+        {
+          "path": "skill/SKILL.md",
+          "git_blob_sha": "5eb8225a00fd59f14dc38c770df2dd63dfe48b9b",
+          "size": 4210
+        },
+        {
+          "path": "skill/clawhub.json",
+          "git_blob_sha": "49aa4a797f367f753db2c225fe7aef7c465103be",
+          "size": 144
+        },
+        {
+          "path": "skill/run.py",
+          "git_blob_sha": "3cbb411f0fd144f55b3072587caf77bcb34c0eb4",
+          "size": 15814
+        },
+        {
+          "path": "static/css/bulma-carousel.min.css",
+          "git_blob_sha": "4d4b7d103e0013f64e4dedd2ad0b2947cc0d11a5",
+          "size": 3645
+        },
+        {
+          "path": "static/css/bulma-slider.min.css",
+          "git_blob_sha": "09b4aeb2fb19d7d883a0b01cb1982cb382992f95",
+          "size": 13782
+        },
+        {
+          "path": "static/css/bulma.min.css",
+          "git_blob_sha": "a807a314caa0df0ddccacd6b732d83f5ffde7a89",
+          "size": 204030
+        },
+        {
+          "path": "static/css/fontawesome.all.min.css",
+          "git_blob_sha": "ab5134cf81d2a533ea021478b752d36084edb0f3",
+          "size": 59348
+        },
+        {
+          "path": "static/css/index.css",
+          "git_blob_sha": "f1e49f58db38046491591dc18bc083d5cd14913d",
+          "size": 2275
+        },
+        {
+          "path": "static/images/case_diagram.png",
+          "git_blob_sha": "a45e500276c08db016ff5ac04c126b22489ef00b",
+          "size": 1741425
+        },
+        {
+          "path": "static/images/case_failure.png",
+          "git_blob_sha": "ce863d5343a30dcb91271bf2967c6eeb82bb9e21",
+          "size": 1501744
+        },
+        {
+          "path": "static/images/case_plot_img_vs_code.png",
+          "git_blob_sha": "4fee01eb036bea3b2e0f9bd80686e74ca74e484f",
+          "size": 947369
+        },
+        {
+          "path": "static/images/case_style_polish.png",
+          "git_blob_sha": "8cd455cad2bddc4121bbe6ff573dc1aeaba0aa0c",
+          "size": 1929452
+        },
+        {
+          "path": "static/images/discussion_enhance_style.jpg",
+          "git_blob_sha": "66bacd466d5dfb91051fa947d1a05dd1578e51a4",
+          "size": 269918
+        },
+        {
+          "path": "static/images/logo.jpg",
+          "git_blob_sha": "f374a72f19a86e4dec72f7a7a3e50b37f5507fff",
+          "size": 153878
+        },
+        {
+          "path": "static/images/main_results.png",
+          "git_blob_sha": "081c9e6e8036f77508fda0f84beedabc2df841f1",
+          "size": 133905
+        },
+        {
+          "path": "static/images/method_diagram.png",
+          "git_blob_sha": "97bab9275b4f90c79b1a426b9bbf72507b1a9da4",
+          "size": 5612318
+        },
+        {
+          "path": "static/images/plot_bench_stat.jpg",
+          "git_blob_sha": "0705548cbe547803d775c99233798af97f35194f",
+          "size": 298073
+        },
+        {
+          "path": "static/images/plot_code_vs_img.jpg",
+          "git_blob_sha": "3c2fa16257f14e13fbfebe7529403ef64254338a",
+          "size": 665426
+        },
+        {
+          "path": "static/images/plot_vanilla_vs_ours_v2.jpg",
+          "git_blob_sha": "8f8b2c9383379999cebb7b30180a3de1911f33e0",
+          "size": 593234
+        },
+        {
+          "path": "static/images/teaser_figure.jpg",
+          "git_blob_sha": "0aa74c0890eece6d15982fe39691de898d6b3d37",
+          "size": 940119
+        },
+        {
+          "path": "static/js/bulma-carousel.js",
+          "git_blob_sha": "2f44c7c197f0782bcc63da042ee0c4adbbf0cb7e",
+          "size": 85193
+        },
+        {
+          "path": "static/js/bulma-carousel.min.js",
+          "git_blob_sha": "5fff0695f00cf9da60dd87aa72c51367b00e92ff",
+          "size": 40723
+        },
+        {
+          "path": "static/js/bulma-slider.js",
+          "git_blob_sha": "225b8af5da4b86c2f0d5673a3af258c93657f365",
+          "size": 16864
+        },
+        {
+          "path": "static/js/bulma-slider.min.js",
+          "git_blob_sha": "7e62685763cf7668cfa8857fac0b27af2c277286",
+          "size": 6926
+        },
+        {
+          "path": "static/js/fontawesome.all.min.js",
+          "git_blob_sha": "10eea08c48353e56760caab10a82160dee76b718",
+          "size": 1194964
+        },
+        {
+          "path": "style_guides/generate_category_style_guide.py",
+          "git_blob_sha": "8e1aea7caf1c8d586baa3c5e83d90b7c5b51d690",
+          "size": 14057
+        },
+        {
+          "path": "style_guides/neurips2025_diagram_style_guide.md",
+          "git_blob_sha": "25b4d31be90404d9c31638e439fddc11e15b5eab",
+          "size": 6270
+        },
+        {
+          "path": "style_guides/neurips2025_plot_style_guide.md",
+          "git_blob_sha": "330aa702cbc6ed5222424c59bfe067693db6cefb",
+          "size": 6034
+        },
+        {
+          "path": "tests/test_api_route_provider.py",
+          "git_blob_sha": "e33728cf59afae904e52813b89b04b79be30746e",
+          "size": 3900
+        },
+        {
+          "path": "tests/test_atlascloud_provider.py",
+          "git_blob_sha": "335330b56ee31fdbb629ba60280a23d1efec8a41",
+          "size": 2513
+        },
+        {
+          "path": "tests/test_cloudgpu_provider.py",
+          "git_blob_sha": "e7048f34ea4253ed9524dfd66406bfa8cbf54a55",
+          "size": 2468
+        },
+        {
+          "path": "tests/test_critic_round_scan.py",
+          "git_blob_sha": "b7b903968f7998441d5b75de6bd7f3f0103455a6",
+          "size": 1772
+        },
+        {
+          "path": "tests/test_demo_saved_results.py",
+          "git_blob_sha": "6f0e166104927b1b98e058bc02e216d3df66c9b8",
+          "size": 11336
+        },
+        {
+          "path": "tests/test_legacy_generation_options.py",
+          "git_blob_sha": "692c355ad9737a66a8f7f2367d2a686a497f9452",
+          "size": 4895
+        },
+        {
+          "path": "tests/test_legacy_plot_agents.py",
+          "git_blob_sha": "061d22edf1044562f51a6206ebdfe67ce84e2465",
+          "size": 7297
+        },
+        {
+          "path": "tests/test_legacy_ui_result_keys.py",
+          "git_blob_sha": "d55fd6b044abe8756a56e1e7d416e5bb4e5008ef",
+          "size": 9630
+        },
+        {
+          "path": "tests/test_litellm_provider.py",
+          "git_blob_sha": "beff7b33ed021ea5ed2fe48c87ec42e6ba74e938",
+          "size": 11319
+        },
+        {
+          "path": "tests/test_local_openai_route.py",
+          "git_blob_sha": "82915d19599a66bacedb8cfd1bdddeff0fd89a37",
+          "size": 12486
+        },
+        {
+          "path": "tests/test_max_critic_rounds.py",
+          "git_blob_sha": "b4a6ffd819b052d62775f7632ded591c8d3ccb63",
+          "size": 6231
+        },
+        {
+          "path": "tests/test_orcarouter_provider.py",
+          "git_blob_sha": "b7006e7aa719549e3f48a76471cde14f546fff31",
+          "size": 9963
+        },
+        {
+          "path": "tests/test_planner_metaphor.py",
+          "git_blob_sha": "6e3bbf3eb51bbcb452d1fcab602c1efa2045203a",
+          "size": 3078
+        },
+        {
+          "path": "tests/test_plot_execution.py",
+          "git_blob_sha": "1aab0dc84e057570ef530629c36a3ef9b5f55dff",
+          "size": 1749
+        },
+        {
+          "path": "tests/test_prepare_bench.py",
+          "git_blob_sha": "c09ddd44c8f336f7bae8ba4bcd7c8bff9b7116d3",
+          "size": 6735
+        },
+        {
+          "path": "tests/test_progress_tracker.py",
+          "git_blob_sha": "017ec1a70c24bfbdce6fd8f7be018b09a9ca3ccb",
+          "size": 22237
+        },
+        {
+          "path": "tests/test_provider_routing.py",
+          "git_blob_sha": "e7cf2c84d8c323f8d54e7a3e00b03c23365e95dc",
+          "size": 28574
+        },
+        {
+          "path": "tests/test_refine_jpeg_encoding.py",
+          "git_blob_sha": "6dedb29382c133df495bd5ee4872aa61daadbd20",
+          "size": 2638
+        },
+        {
+          "path": "tests/test_runcrate_provider.py",
+          "git_blob_sha": "c0a3ef73de07984cd18da1df63a72016fe336f05",
+          "size": 2513
+        },
+        {
+          "path": "tests/test_skill_run_dataset.py",
+          "git_blob_sha": "571f4984fb8da00458ebed753f1c4e5539efba6f",
+          "size": 11024
+        },
+        {
+          "path": "tests/test_skill_run_figure_size.py",
+          "git_blob_sha": "09628796e5cba3b10fcd45fbbf454cd788c7165c",
+          "size": 3378
+        },
+        {
+          "path": "tests/test_visualizer_critic_rounds.py",
+          "git_blob_sha": "98b1ed25e2d45e5e421e268d12390840c0960047",
+          "size": 4309
+        },
+        {
+          "path": "utils/__init__.py",
+          "git_blob_sha": "273c0ab102031343a4e3cd4bb9e83bc6a42187cd",
+          "size": 572
+        },
+        {
+          "path": "utils/config.py",
+          "git_blob_sha": "ee6290473f8c8be94217457c51793c2f7a6813d3",
+          "size": 3717
+        },
+        {
+          "path": "utils/critic_rounds.py",
+          "git_blob_sha": "dfde04569a7b5476851ab893c1b01d99011f7047",
+          "size": 3098
+        },
+        {
+          "path": "utils/eval_toolkits.py",
+          "git_blob_sha": "818eb39b65c76df431febd0e298f0c3551895f9e",
+          "size": 12448
+        },
+        {
+          "path": "utils/generation_utils.py",
+          "git_blob_sha": "897c4325258557db9fb9c7ece163b345a875b68b",
+          "size": 57083
+        },
+        {
+          "path": "utils/image_utils.py",
+          "git_blob_sha": "059e119a78737f05d707bb16bcbb23926943dd50",
+          "size": 2396
+        },
+        {
+          "path": "utils/legacy_generation_options.py",
+          "git_blob_sha": "96cd7f15e4d0af18b04a14e45cbd09594f1dae60",
+          "size": 2670
+        },
+        {
+          "path": "utils/legacy_ui_results.py",
+          "git_blob_sha": "41c001c1eddb7064b11e6bf4f4077b0e243000b2",
+          "size": 10389
+        },
+        {
+          "path": "utils/paperviz_processor.py",
+          "git_blob_sha": "0bf0786b132ba84b0cb0810840cbe66a2c51c2df",
+          "size": 24969
+        },
+        {
+          "path": "utils/plot_execution.py",
+          "git_blob_sha": "b9e9e603ab3f44b2c99e85aee029092381811422",
+          "size": 1976
+        },
+        {
+          "path": "visualize/show_pipeline_evolution.py",
+          "git_blob_sha": "4ed2785c907e92a14f0c180da77b0c4e45d611dd",
+          "size": 14216
+        },
+        {
+          "path": "visualize/show_referenced_eval.py",
+          "git_blob_sha": "9e12c39287f724f0bdb0ad2c41e9e81c9e047ff7",
+          "size": 18137
+        }
+      ]
+    },
+    {
+      "repo": "Azhi-ss/academic-figure-skills",
+      "commit": "73545d2f2227b03a185c8834709c7808ada5b0cb",
+      "manifest": [
+        {
+          "path": ".gitignore",
+          "git_blob_sha": "3bd6f4255358263c7a71d2078ffe47efcb48d6a2",
+          "size": 361
+        },
+        {
+          "path": "CHANGELOG.md",
+          "git_blob_sha": "20dde551aaab74b62214a1919f387d75035e9451",
+          "size": 19979
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "git_blob_sha": "3ade0c9246a25507456c4e7a88f2206c86ae3af2",
+          "size": 7638
+        },
+        {
+          "path": "LICENSE",
+          "git_blob_sha": "c73a350e346122daf3bc39e9a31bc1943492326f",
+          "size": 1064
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "6c9b6e4c5bebb55ef4f1f0a27c6748b029f763eb",
+          "size": 23762
+        },
+        {
+          "path": "docs/academic-references.md",
+          "git_blob_sha": "d67f3ccb639e2740590c6d94c41542b2c3212c78",
+          "size": 6476
+        },
+        {
+          "path": "docs/best-practices.md",
+          "git_blob_sha": "2d8e08f2eb8925ff2608f852d89b99ea7d58fae4",
+          "size": 13247
+        },
+        {
+          "path": "docs/gallery/contrast_ablation_kan.jpg",
+          "git_blob_sha": "c2a943b09d2b729f5e42e807ef23464ec93743f3",
+          "size": 585266
+        },
+        {
+          "path": "docs/gallery/dual_fidelity_loop_labo.jpg",
+          "git_blob_sha": "59ed8a1d48216bcc2987a4787b32bfe1b6c17a99",
+          "size": 593297
+        },
+        {
+          "path": "docs/gallery/illustrated_modular_agentic_matribo.jpg",
+          "git_blob_sha": "018a5633d8edb4677f01e8ba1e7233dc526b7a59",
+          "size": 794622
+        },
+        {
+          "path": "docs/gallery/modern_technical_vector_deepseek_mla.jpg",
+          "git_blob_sha": "df92b2b363b55c80edbfbe72bf4f956832c49d44",
+          "size": 626695
+        },
+        {
+          "path": "docs/gallery/paired_semantic_zones_dash.jpg",
+          "git_blob_sha": "1cfbb4ef7d5605c3e8a0343e31dd32a0d3de0940",
+          "size": 574687
+        },
+        {
+          "path": "docs/gallery/pastel_airy_ui_agentic_bo.jpg",
+          "git_blob_sha": "9d667deebc997c7d4925025168ce04f7352fc5e8",
+          "size": 198343
+        },
+        {
+          "path": "docs/gallery/pastel_airy_ui_swe_agent.jpg",
+          "git_blob_sha": "6f98c2040c72fefd9dcf247bbe2a7c12122eb6c2",
+          "size": 476548
+        },
+        {
+          "path": "docs/prompts/contrast_ablation_kan.spec.json",
+          "git_blob_sha": "d676920c72716738e79233a023222b089811068c",
+          "size": 8505
+        },
+        {
+          "path": "docs/prompts/dual_fidelity_loop_labo.spec.json",
+          "git_blob_sha": "3eb4ba3db7fafadd47b523400f72cafec978cbc3",
+          "size": 10984
+        },
+        {
+          "path": "docs/prompts/illustrated_modular_agentic_matribo.spec.json",
+          "git_blob_sha": "f448fb02b7343fb48809c2b6d8e526143b4146ae",
+          "size": 22042
+        },
+        {
+          "path": "docs/prompts/modern_technical_vector_deepseek_mla.spec.json",
+          "git_blob_sha": "e8ded2ff1fc11bbfcec33ef8a77ab167a9f17c8b",
+          "size": 10201
+        },
+        {
+          "path": "docs/prompts/paired_semantic_zones_dash.spec.json",
+          "git_blob_sha": "9e5b6745420de23643f5543145a3c5ab6eb60420",
+          "size": 8428
+        },
+        {
+          "path": "docs/prompts/pastel_airy_ui_agentic_bo.spec.json",
+          "git_blob_sha": "f0d245b343a9baeb01de5126c0643985c784ef60",
+          "size": 11377
+        },
+        {
+          "path": "docs/prompts/pastel_airy_ui_swe_agent.spec.json",
+          "git_blob_sha": "bc346d650fc646257b11468fd0693974535af22a",
+          "size": 9626
+        },
+        {
+          "path": "docs/styles.md",
+          "git_blob_sha": "3e62bea3c3325223b9b3932133b4a71482117220",
+          "size": 4910
+        },
+        {
+          "path": "examples/benchmarks/README.md",
+          "git_blob_sha": "7f7a25c543209eeace988550f950c38a8fe972ef",
+          "size": 3609
+        },
+        {
+          "path": "examples/benchmarks/alphafold/figure-plan.md",
+          "git_blob_sha": "6bc2116d062d5a45fe49ed9dbe8336c79bb7fbbe",
+          "size": 1397
+        },
+        {
+          "path": "examples/benchmarks/alphafold/prompt-spec.json",
+          "git_blob_sha": "2db912ce8344a825fb0fdd586e8a173f2694bb41",
+          "size": 3983
+        },
+        {
+          "path": "examples/benchmarks/alphafold/quick-understanding.md",
+          "git_blob_sha": "7567c9aa2561202daa8f2fbe381c833c54365120",
+          "size": 2692
+        },
+        {
+          "path": "examples/benchmarks/cyclegan/figure-plan.md",
+          "git_blob_sha": "62c1f4485d765cf5324b9701dd5c538143b95900",
+          "size": 1607
+        },
+        {
+          "path": "examples/benchmarks/cyclegan/prompt-spec.json",
+          "git_blob_sha": "caf1eb30674338724a11354498773a2d9859ef7c",
+          "size": 3560
+        },
+        {
+          "path": "examples/benchmarks/cyclegan/quick-understanding.md",
+          "git_blob_sha": "2fa139f6f95c15fd44b0192b47e947291d80b683",
+          "size": 3199
+        },
+        {
+          "path": "examples/benchmarks/detr/figure-plan.md",
+          "git_blob_sha": "26746327c75d9dc07bede8bcee2838ef24777c26",
+          "size": 1560
+        },
+        {
+          "path": "examples/benchmarks/detr/prompt-spec.json",
+          "git_blob_sha": "0bde15c8ae3b8fd7e35ecb688390a3e739b76c72",
+          "size": 3875
+        },
+        {
+          "path": "examples/benchmarks/detr/quick-understanding.md",
+          "git_blob_sha": "fbc2acff44de9ce875c1322a37db45ea1368c826",
+          "size": 3565
+        },
+        {
+          "path": "examples/benchmarks/esm/figure-plan.md",
+          "git_blob_sha": "f4d18069d94393d47a0506e496e1ad699bc25a6b",
+          "size": 1386
+        },
+        {
+          "path": "examples/benchmarks/esm/prompt-spec.json",
+          "git_blob_sha": "934d878ef56807137d7c05812af6ef82d3fe6ace",
+          "size": 3626
+        },
+        {
+          "path": "examples/benchmarks/esm/quick-understanding.md",
+          "git_blob_sha": "6eadb29a49ffe51774f52237b28ee5f33ea6b4e9",
+          "size": 2769
+        },
+        {
+          "path": "examples/benchmarks/fixture-sparse/figure-plan.md",
+          "git_blob_sha": "577cdcc28c60856fab42a79cc0a76e600c1ed910",
+          "size": 1322
+        },
+        {
+          "path": "examples/benchmarks/fixture-sparse/prompt-spec.json",
+          "git_blob_sha": "51218251f617cb46cd3b61942bc52c67656b47ca",
+          "size": 2967
+        },
+        {
+          "path": "examples/benchmarks/fixture-sparse/quick-understanding.md",
+          "git_blob_sha": "f1b5892e3c97bfeb567909a1123f3e668e076200",
+          "size": 2357
+        },
+        {
+          "path": "examples/benchmarks/graphcast/figure-plan.md",
+          "git_blob_sha": "cf21eddaeeaf53649f597ca7fcab4d83c5d5f44a",
+          "size": 1416
+        },
+        {
+          "path": "examples/benchmarks/graphcast/prompt-spec.json",
+          "git_blob_sha": "54505689f99c7ad6006b835faa0b8892eb66aa71",
+          "size": 3381
+        },
+        {
+          "path": "examples/benchmarks/graphcast/quick-understanding.md",
+          "git_blob_sha": "166718bd3f65a924dd5f1e3df656a2b759f90b25",
+          "size": 2698
+        },
+        {
+          "path": "examples/benchmarks/manifest.json",
+          "git_blob_sha": "481ec7a4d2e111fafa5171c76f3709cd80142a0b",
+          "size": 2764
+        },
+        {
+          "path": "examples/benchmarks/nanogpt/figure-plan.md",
+          "git_blob_sha": "4877ec18977dd3138b3064966a577d1ff2948e3e",
+          "size": 1345
+        },
+        {
+          "path": "examples/benchmarks/nanogpt/prompt-spec.json",
+          "git_blob_sha": "b1976c41f56b851a2caaabdaa24d80a773dd2bf2",
+          "size": 3559
+        },
+        {
+          "path": "examples/benchmarks/nanogpt/quick-understanding.md",
+          "git_blob_sha": "bee0d52a7c37a22ddd102a6a76148e7749f8aac1",
+          "size": 2445
+        },
+        {
+          "path": "examples/benchmarks/nerf/figure-plan.md",
+          "git_blob_sha": "615f54aea544c975fcabcf05e5ac0847c1e444ff",
+          "size": 1492
+        },
+        {
+          "path": "examples/benchmarks/nerf/prompt-spec.json",
+          "git_blob_sha": "239fc2282f5bf19860aa7208953f368e43e3cfa1",
+          "size": 3749
+        },
+        {
+          "path": "examples/benchmarks/nerf/quick-understanding.md",
+          "git_blob_sha": "0d7e8127bad6d5c2e60d99020ba779eeafdc0f41",
+          "size": 3250
+        },
+        {
+          "path": "examples/benchmarks/stable-diffusion/figure-plan.md",
+          "git_blob_sha": "0d426846a34a8592f09d487b24b81c60d541f495",
+          "size": 1446
+        },
+        {
+          "path": "examples/benchmarks/stable-diffusion/prompt-spec.json",
+          "git_blob_sha": "a7c565503c108f5f0f25d596ef516e9c2a3f26cf",
+          "size": 3467
+        },
+        {
+          "path": "examples/benchmarks/stable-diffusion/quick-understanding.md",
+          "git_blob_sha": "9c9e8b169b150f4cd1f5970053e919b43de86022",
+          "size": 2953
+        },
+        {
+          "path": "examples/benchmarks/transformers/figure-plan.md",
+          "git_blob_sha": "5c4c7baab3af00074ec24b0eba5de7c0ecf591e0",
+          "size": 1407
+        },
+        {
+          "path": "examples/benchmarks/transformers/prompt-spec.json",
+          "git_blob_sha": "9f7c0b6490f93b2faa85f6f5dc39634e17a1a710",
+          "size": 3977
+        },
+        {
+          "path": "examples/benchmarks/transformers/quick-understanding.md",
+          "git_blob_sha": "c28a829586e8312d80e65d94ad99b1bdf53a1be2",
+          "size": 3050
+        },
+        {
+          "path": "examples/benchmarks/whisper/figure-plan.md",
+          "git_blob_sha": "b2d255373e81e66173c96b15a089eda182888fd4",
+          "size": 1591
+        },
+        {
+          "path": "examples/benchmarks/whisper/prompt-spec.json",
+          "git_blob_sha": "30245bb4421aac0a09205aaaa39c749764984422",
+          "size": 3441
+        },
+        {
+          "path": "examples/benchmarks/whisper/quick-understanding.md",
+          "git_blob_sha": "c725eb3f06a6b127d1051f0c38ffe12b8ec52f45",
+          "size": 3436
+        },
+        {
+          "path": "examples/orchestration/parallel-figures.md",
+          "git_blob_sha": "e31926db4f478a29aa1d02b6f847d4f4aef8d85b",
+          "size": 3278
+        },
+        {
+          "path": "fig-analyze/SKILL.md",
+          "git_blob_sha": "ab3824977e7eda22e9222dea40c4175634acdd3c",
+          "size": 2780
+        },
+        {
+          "path": "fig-analyze/references/keywords.md",
+          "git_blob_sha": "f86166ca793a36ab0d050742ea99ef18a1d2223b",
+          "size": 2258
+        },
+        {
+          "path": "fig-analyze/references/missing-info-policy.md",
+          "git_blob_sha": "b39dd442d1c5fa0a8a355a933c994d312a1d18b6",
+          "size": 1075
+        },
+        {
+          "path": "fig-analyze/references/paper.md",
+          "git_blob_sha": "8f02cb31c7360be77e7e88c7ea23c28122de29f1",
+          "size": 7609
+        },
+        {
+          "path": "fig-analyze/references/reference-figure.md",
+          "git_blob_sha": "7e82e415952cd7a53785b6559ef5f619775fcef1",
+          "size": 4834
+        },
+        {
+          "path": "fig-analyze/references/repo.md",
+          "git_blob_sha": "5d335d4d5869436fce11e6c730e68b2192512d11",
+          "size": 6018
+        },
+        {
+          "path": "fig-analyze/scripts/extract_pdf_figures.py",
+          "git_blob_sha": "9177613dbbb4a4c18ccf94cd70a4b602ddf9e6ca",
+          "size": 9596
+        },
+        {
+          "path": "fig-draw/SKILL.md",
+          "git_blob_sha": "041e9c707dde78f63e917f89298dc0ba88c31f6a",
+          "size": 22418
+        },
+        {
+          "path": "fig-draw/figure-spec.schema.json",
+          "git_blob_sha": "63dbda5f0014574424ae731b2a3bb6038b6dcda4",
+          "size": 8674
+        },
+        {
+          "path": "fig-draw/json-schema.md",
+          "git_blob_sha": "632f2a4f33a17501bfdd35df3f5730c36ef607fa",
+          "size": 9174
+        },
+        {
+          "path": "fig-draw/prompts/figure-worker.md",
+          "git_blob_sha": "839c96a14c1d1973e28e5cca5979ea52036ebeaf",
+          "size": 6838
+        },
+        {
+          "path": "fig-draw/references/architecture-icons.md",
+          "git_blob_sha": "812b88f37718b44d13461072ca8c5560113826e8",
+          "size": 10824
+        },
+        {
+          "path": "fig-draw/references/codex-image-workflow.md",
+          "git_blob_sha": "0c002f2628fbc1a32ffc6a176fecc6a62055c31e",
+          "size": 10035
+        },
+        {
+          "path": "fig-draw/references/image-prompt-guide.md",
+          "git_blob_sha": "4ad95cae6d16a290d22172dd17f8d1fd51302b10",
+          "size": 6539
+        },
+        {
+          "path": "fig-draw/references/json-to-prompt.md",
+          "git_blob_sha": "c8ff5d209b1042d0a80fb57cd9dfa1ddbc289358",
+          "size": 7422
+        },
+        {
+          "path": "fig-draw/references/palettes.md",
+          "git_blob_sha": "dc868001210050a78111264d52cead5d9b1ee2b6",
+          "size": 21169
+        },
+        {
+          "path": "fig-draw/references/previews/contrast_ablation_kan.jpg",
+          "git_blob_sha": "c2a943b09d2b729f5e42e807ef23464ec93743f3",
+          "size": 585266
+        },
+        {
+          "path": "fig-draw/references/previews/dual_fidelity_loop_labo.jpg",
+          "git_blob_sha": "59ed8a1d48216bcc2987a4787b32bfe1b6c17a99",
+          "size": 593297
+        },
+        {
+          "path": "fig-draw/references/previews/illustrated_modular_agentic_matribo.jpg",
+          "git_blob_sha": "018a5633d8edb4677f01e8ba1e7233dc526b7a59",
+          "size": 794622
+        },
+        {
+          "path": "fig-draw/references/previews/modern_technical_vector_deepseek_mla.jpg",
+          "git_blob_sha": "df92b2b363b55c80edbfbe72bf4f956832c49d44",
+          "size": 626695
+        },
+        {
+          "path": "fig-draw/references/previews/paired_semantic_zones_dash.jpg",
+          "git_blob_sha": "1cfbb4ef7d5605c3e8a0343e31dd32a0d3de0940",
+          "size": 574687
+        },
+        {
+          "path": "fig-draw/references/previews/pastel_airy_ui_agentic_bo.jpg",
+          "git_blob_sha": "9d667deebc997c7d4925025168ce04f7352fc5e8",
+          "size": 198343
+        },
+        {
+          "path": "fig-draw/references/prompt-design-cases.md",
+          "git_blob_sha": "f8d2f32058abd20c3f3af99f93bd365e1f39eaee",
+          "size": 6995
+        },
+        {
+          "path": "fig-draw/references/prompt-design-logic.md",
+          "git_blob_sha": "d1e6a02926d4c2d29efe36317c7f4fefcb031b8d",
+          "size": 9263
+        },
+        {
+          "path": "fig-draw/references/prompt-templates.md",
+          "git_blob_sha": "d5334b91d80aaa7b9fb10edf32c19b9b0c5e66f6",
+          "size": 5985
+        },
+        {
+          "path": "fig-draw/references/render-audit.md",
+          "git_blob_sha": "df640943994ecc9e612dc963d3c7ccd04b7393c9",
+          "size": 11668
+        },
+        {
+          "path": "fig-draw/references/style-catalog.md",
+          "git_blob_sha": "af6a3a7d2631eda82c795d08efcc7b746ff55002",
+          "size": 1528
+        },
+        {
+          "path": "fig-draw/references/styles/双保真度引导闭环风.md",
+          "git_blob_sha": "a36d7adedaddebb3524a2e09cabdfc27e4a68663",
+          "size": 7417
+        },
+        {
+          "path": "fig-draw/references/styles/对比消融实验风.md",
+          "git_blob_sha": "17ad2a88d6ee727e4efa1836ae83287aaa897a2b",
+          "size": 3410
+        },
+        {
+          "path": "fig-draw/references/styles/有色语义分区图示风.md",
+          "git_blob_sha": "53ce6950b05200423162818f50270dfdb60125af",
+          "size": 5286
+        },
+        {
+          "path": "fig-draw/references/styles/现代前沿技术框线风.md",
+          "git_blob_sha": "6aed4eb89e845e6d4d7a04107f767e3ab4b7b045",
+          "size": 3494
+        },
+        {
+          "path": "fig-draw/references/styles/现代柔彩空气风.md",
+          "git_blob_sha": "bbea42bec37aad1f8b5cee0313a285addce06566",
+          "size": 8144
+        },
+        {
+          "path": "fig-draw/references/styles/编辑手绘模块风.md",
+          "git_blob_sha": "298aab62cdfb269d25a32d5122e63a98c8cbc34c",
+          "size": 11615
+        },
+        {
+          "path": "fig-draw/scripts/clean_image_metadata.py",
+          "git_blob_sha": "3bbfd4dd87c3951d2a1ecf806910b7bc4b3809ff",
+          "size": 4427
+        },
+        {
+          "path": "fig-draw/scripts/validate_figure_spec.py",
+          "git_blob_sha": "bb24e33134f7cbe65a475ba8782c7ab40b399d40",
+          "size": 24817
+        },
+        {
+          "path": "fig-draw/scripts/validate_render_audit.py",
+          "git_blob_sha": "7fae28d7b93f4c71e514b6dee8fcec068b3b7cfd",
+          "size": 11610
+        },
+        {
+          "path": "fig-pptx/SKILL.md",
+          "git_blob_sha": "c9c0d55244c64610f0353510b8dfa6721643dd9e",
+          "size": 2167
+        },
+        {
+          "path": "fig-pptx/references/layers.md",
+          "git_blob_sha": "c390eccbff60ccbce2fa0b3e09d9d776158849f7",
+          "size": 4913
+        },
+        {
+          "path": "fig-pptx/scripts/chroma_key.py",
+          "git_blob_sha": "1288970a11934b0c2848a7c8b6bc8f4d9313578c",
+          "size": 15470
+        },
+        {
+          "path": "fig-pptx/scripts/compose_pptx.py",
+          "git_blob_sha": "ab951600fba6b8bc0ce52963446531cafb66f5a3",
+          "size": 27999
+        },
+        {
+          "path": "fig-pptx/scripts/layout_guard.py",
+          "git_blob_sha": "5d57f35b61d0d48966d5aae89a81ada8e281ada1",
+          "size": 13708
+        },
+        {
+          "path": "fig-pptx/scripts/pick_font.py",
+          "git_blob_sha": "09e8537b05e20422419c4bd69d797d8099c172f7",
+          "size": 2779
+        },
+        {
+          "path": "fig-pptx/scripts/probe_palette.py",
+          "git_blob_sha": "8a2f0bdc551bd098597110f3ae3348628b223aba",
+          "size": 4878
+        },
+        {
+          "path": "fig-pptx/scripts/slice_grid.py",
+          "git_blob_sha": "c6aeea059635b6619544316b4538851775fe04c1",
+          "size": 17003
+        },
+        {
+          "path": "manifest.json",
+          "git_blob_sha": "23fd0f5fe8bd4fecfde254405f17b541c06365f9",
+          "size": 4653
+        },
+        {
+          "path": "scripts/create_sparse_fixture.py",
+          "git_blob_sha": "746e4b70cffb9bc31b142bd04eec245a4edd545b",
+          "size": 1434
+        },
+        {
+          "path": "scripts/fetch_benchmark_repos.py",
+          "git_blob_sha": "91cc52163059a497b65748741b597e932afe8f94",
+          "size": 2824
+        },
+        {
+          "path": "scripts/run_repo_benchmarks.py",
+          "git_blob_sha": "c559c9d1607ef1f278ca6732b9ddb9a117494618",
+          "size": 8760
+        },
+        {
+          "path": "scripts/validate_skill_pack.py",
+          "git_blob_sha": "7776cafeb0e8395ef5f4c596f6dd0037463feeb3",
+          "size": 10770
+        },
+        {
+          "path": "tests/test_clean_image_metadata.py",
+          "git_blob_sha": "a58e080296ff2cb5b17c8f266173b6ce434ed5fc",
+          "size": 2293
+        },
+        {
+          "path": "tests/test_fig_pptx.py",
+          "git_blob_sha": "6f92dc3eca5573f56b5eead0ba2a3e44d1d1db5d",
+          "size": 3712
+        },
+        {
+          "path": "tests/test_figure_spec_hardening.py",
+          "git_blob_sha": "a8ca8441531ebc982715aa4c01423e52996a7482",
+          "size": 20879
+        },
+        {
+          "path": "tests/test_render_audit.py",
+          "git_blob_sha": "e4d05580ee0f31fab2b65e3400260b2453b3f78a",
+          "size": 12765
+        },
+        {
+          "path": "tests/test_validation.py",
+          "git_blob_sha": "67dd0561d8188822d5230bd0bfea58efc74c7fdf",
+          "size": 9532
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    "academic-pptx-skill"
+  ]
+}

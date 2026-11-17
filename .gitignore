@@ -6,3 +6,15 @@ __pycache__/
 *.key
 data-private/
 .audit/
+
+.tools/
+.runtime/
+.cache/
+.compat-upstream/
+.venv*/
+qa/private/
+
+.chart-data-*/
+qa/*.log
+slides/offline-bilingual-demo.pptx
+output/offline-bilingual-test.pptx

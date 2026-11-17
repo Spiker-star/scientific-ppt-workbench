@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "source_sha256": "739f91ec7577833459e24ad20a4fa393362f11b9595a299cc98d1bbb4a2c462b",
+  "slide_count": 2,
+  "embedded_workbooks": 2,
+  "slides": [
+    {
+      "text_objects": 12,
+      "native_chart_count": 1,
+      "data": [
+        5,
+        8,
+        11
+      ]
+    },
+    {
+      "text_objects": 12,
+      "native_chart_count": 1,
+      "data": [
+        5,
+        8,
+        11
+      ]
+    }
+  ],
+  "text_edit_roundtrip": true,
+  "shape_move_roundtrip": true,
+  "chart_data_edit_roundtrip": true,
+  "powerpoint_application_test": "not_performed"
+}
