@@ -1,0 +1,15 @@
+name: research-framework-fusion
+status: visual-draft
+selected_palette: null
+accepted_candidates: [A, C]
+rejected_candidates: [B]
+preserve_previous_theme: true
+font: Microsoft YaHei
+slide_size: [1280, 720]
+body_px: 23
+heading_px: 35
+palettes:
+  A: {name: 沉稳学术, primary: '#143F72', background: '#EAF0F7', accent: '#A52C36'}
+  B: {name: 清新科研, primary: '#246B61', background: '#EDF6F1', accent: '#AE642A'}
+  C: {name: 现代科技, primary: '#354E79', background: '#EEF0F8', accent: '#7A467C'}
+

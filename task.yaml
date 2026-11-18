@@ -1,0 +1,20 @@
+{
+  "schema": "research-ppt-studio/task@1",
+  "task_id": "example-offline",
+  "report_type": "literature-review",
+  "language": "zh-CN",
+  "slide_count": 3,
+  "duration_minutes": 5,
+  "theme": "research-framework-fusion",
+  "palette": "A",
+  "source_pdf": null,
+  "data_kind": "synthetic",
+  "outline_approved": false,
+  "outline": [
+    {"title": "研究背景与科学问题", "layout": "research-background", "evidence": []},
+    {"title": "研究内容与技术路线", "layout": "technical-roadmap", "evidence": []},
+    {"title": "结果与机制", "layout": "experimental-results", "evidence": []}
+  ],
+  "allow_paid_api": false,
+  "publish_source_material": false
+}

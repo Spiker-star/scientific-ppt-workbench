@@ -17,3 +17,7 @@ Start/reproduce: [isolated setup](env/bootstrap-offline.ps1), [hashed dependency
 
 Start with [design](docs/design.md), [QA](docs/qa.md), [workflow](docs/workflow.md), [deployment](docs/deployment.md).
 
+
+## Research PPT Studio 工作入口
+
+新增 [中文使用教程](docs/user-guide-zh.md)、[任务交接文件](task.yaml) 与 [本地任务检查](scripts/make_ppt.py)。A/C为候选主题，B不再用于新稿。当前仍需确认大纲与逐页审稿，不宣称一键论文到PPT已实现。私人参考稿与论文图像仅保留在本地。
