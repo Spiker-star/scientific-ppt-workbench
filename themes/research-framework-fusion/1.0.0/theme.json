@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "status": "user-accepted",
+  "default_palette": null,
+  "palettes": {
+    "A": {
+      "name": "沉稳学术",
+      "primary": "#173F6F",
+      "background": "#EAF0F7",
+      "accent": "#A64145"
+    },
+    "C": {
+      "name": "现代科技",
+      "primary": "#3D4C78",
+      "background": "#EEF0F8",
+      "accent": "#785985"
+    }
+  },
+  "font": "Microsoft YaHei",
+  "title_px": 34,
+  "section_px": 23,
+  "body_px": 22,
+  "source_note_px": 15,
+  "slide_px": [
+    1280,
+    720
+  ],
+  "module": {
+    "header_height": 38,
+    "line_width": 1,
+    "margin": 40,
+    "bottom_summary_y": 624
+  },
+  "chart": {
+    "native": true,
+    "embedded_workbook": true,
+    "units_required": true,
+    "synthetic_label_required": true
+  },
+  "B": "historical-only"
+}

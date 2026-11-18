@@ -9,8 +9,12 @@ def validate(t):
     if t.get('schema')!='research-ppt-studio/task@1': errors.append('schema不支持')
     if t.get('report_type') not in TYPES: errors.append('汇报类型无效')
     if t.get('language') not in {'zh-CN','en-US','bilingual'}: errors.append('语言无效')
-    if t.get('palette') not in {'A','C'}: errors.append('仅允许候选A/C，B已淘汰')
+    if t.get('palette') not in {'A','C'}: errors.append('正式制作仅支持已验收A/C；B仅作历史版本')
     outline=t.get('outline',[])
+    routes={'background':'research-background','content':'research-content','roadmap':'technical-roadmap','mechanism':'mechanism-analysis','results':'experimental-results','summary':'research-summary'}
+    if isinstance(outline,list):
+        for page in outline:
+            if isinstance(page,dict) and not page.get('layout'): page['layout']=routes.get(page.get('page_type'))
     if not isinstance(outline,list): return errors+['outline必须是列表']
     if t.get('slide_count')!=len(outline) or not outline: errors.append('页数与大纲不一致')
     for i,page in enumerate(outline):
@@ -34,9 +38,10 @@ if __name__=='__main__':
         if task.get('language')!='zh-CN': errors.append('当前六布局自动构建只验证了中文，英文/双语需Codex人工适配')
         for i,page in enumerate(task.get('outline',[])):
             if not isinstance(page,dict): continue
-            if not isinstance(page.get('blocks'),list) or len(page['blocks'])<4: errors.append(f'第{i+1}页需至少4个内容块')
-            for field in ['claim','takeaway','method']:
-                if not isinstance(page.get(field),str):errors.append(f'第{i+1}页缺少{field}')
+            need={'research-background':3,'research-content':3,'technical-roadmap':4,'mechanism-analysis':4,'experimental-results':2,'research-summary':3}.get(page.get('layout'),1)
+            if not isinstance(page.get('blocks'),list) or len(page['blocks'])<need: errors.append(f'第{i+1}页至少需要{need}个内容块')
+            for field in (['claim','takeaway','method'] if page.get('layout')=='technical-roadmap' else ['claim','takeaway']):
+                if not isinstance(page.get(field),str) or not page[field].strip():errors.append(f'第{i+1}页缺少{field}')
             if page.get('layout')=='experimental-results':
                 chart=page.get('chart',{})
                 if not chart.get('unit') or len(chart.get('categories',[]))!=len(chart.get('values',[])) or not chart.get('values'):errors.append('图表缺单位或数据不完整')

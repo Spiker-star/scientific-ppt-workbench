@@ -15,7 +15,7 @@ const output = path.join(root, 'output');
 await fs.mkdir(privateDir, { recursive: true });
 await fs.mkdir(output, { recursive: true });
 const presentation = Presentation.create({ slideSize: { width: 1280, height: 720 } });
-const task=JSON.parse(await fs.readFile(path.resolve(process.argv[3] || path.join(root,'examples/six-layout-task.yaml')),'utf8'));populate(presentation,task);
+const task=JSON.parse(await fs.readFile(path.resolve(process.argv[3] || path.join(root,'examples/six-layout-task.yaml')),'utf8')); if(task.visual_review===true){const v=await import('../themes/research-framework-fusion/1.0.0/renderer.mjs');v.populate(presentation,task);}else{populate(presentation,task);}
 const candidate = path.join(privateDir, 'candidate.pptx');
 await (await PresentationFile.exportPptx(presentation)).save(candidate);
 const finalPath = path.resolve(process.argv[2] || path.join(output, 'offline-bilingual-local.pptx'));
@@ -35,6 +35,8 @@ const result = await finalizePresentation({
 const finalized = await PresentationFile.importPptx(await FileBlob.load(finalPath));
 for (const [i, slide] of finalized.slides.items.entries()) {
   const b = await finalized.export({ slide, format: 'png', scale: 1 });
-  await fs.writeFile(path.join(output, `six-layout-${i+1}.png`), new Uint8Array(await b.arrayBuffer()));
+  await fs.writeFile(path.join(path.dirname(finalPath), `${path.basename(finalPath,'.pptx')}-${i+1}.png`), new Uint8Array(await b.arrayBuffer()));
 }
-console.log(JSON.stringify({ finalPath: result.finalPath, sha256: result.finalSha256, slideCount: 6, chartCount: 1 }));
+console.log(JSON.stringify({ finalPath: result.finalPath, sha256: result.finalSha256, slideCount: finalized.slides.items.length, chartCount: task.visual_review===true ? 2 : task.outline.filter(x=>x.layout==='experimental-results').length }));
+
+

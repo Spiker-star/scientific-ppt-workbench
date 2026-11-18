@@ -1,6 +1,6 @@
 # Research PPT Studio
 
-Preserve previous outputs, themes, pinned upstreams and reports. A and C are accepted palette candidates; B is rejected for new work. Do not select a final default without the user.
+Preserve previous outputs, themes, pinned upstreams and reports. A and C version 1.0.0 are user-accepted themes; B is historical-only. Do not select a final default without the user.
 
 Use content to choose layouts. Adjacent pages must not repeat a three-column frame automatically. Prefer original evidence images with nearby interpretation. Preserve scientific caveats, chart units and citations.
 
