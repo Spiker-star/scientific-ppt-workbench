@@ -40,6 +40,12 @@ if __name__=='__main__':
     task_path=Path(args.task).resolve()
     task=json.loads(task_path.read_text(encoding='utf-8-sig'))
     errors=validate(task)
+    if args.build and task.get('theme')=='research-studio-unified':
+        if errors:
+            print(json.dumps({'valid':False,'errors':errors},ensure_ascii=False)); raise SystemExit(1)
+        if not args.output: parser.error('--build requires --output')
+        from build_stable_paper import build
+        raise SystemExit(build(task_path,args.output))
     if args.build:
         if task.get('outline_approved') is not True: errors.append('请先明确确认大纲')
         if task.get('theme')=='research-studio-unified': errors.append('稳定主题整篇论文构建适配待本次大纲确认后完成；禁止回退到旧六布局原型')
