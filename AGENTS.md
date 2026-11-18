@@ -1,5 +1,7 @@
 # Research PPT Studio
 
+User-approved unified sample v8 is frozen as research-studio-unified/1.0.0. Verify scripts/check_stable_theme.py before using it. Preserve its common header/footer/type/color system; do not add visual themes or change it without user direction. Immutable snapshot files must not be edited. A new version requires visual review. Existing A/C snapshots remain intact. Real-paper outline approval must be renewed for the current task, regardless of previous example approvals.
+
 Preserve previous outputs, themes, pinned upstreams and reports. A and C version 1.0.0 are user-accepted themes; B is historical-only. Do not select a final default without the user.
 
 Use content to choose layouts. Adjacent pages must not repeat a three-column frame automatically. Prefer original evidence images with nearby interpretation. Preserve scientific caveats, chart units and citations.

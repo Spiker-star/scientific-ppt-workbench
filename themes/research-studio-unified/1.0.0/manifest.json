@@ -1,0 +1,7 @@
+{
+  "theme": "research-studio-unified@1.0.0",
+  "sha256": {
+    "theme.json": "780884a9c4fc3770691e3eb9827fac57d65457be95039324a05366a2f8632daf",
+    "renderer.cjs": "bacfb08d38c748b82b9335ef1f646fe7c896a8b032908ffb76d70e41242ccf3e"
+  }
+}

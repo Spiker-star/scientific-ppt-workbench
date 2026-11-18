@@ -6,6 +6,13 @@ TYPES={'literature-review','weekly-meeting','conference','thesis-defense','grant
 LAYOUTS={'research-background','research-content','technical-roadmap','mechanism-analysis','experimental-results','research-summary'}
 def validate(t):
     errors=[]
+    if t.get('theme')=='research-studio-unified':
+        if t.get('theme_version')!='1.0.0': errors.append('稳定主题版本必须显式锁定为1.0.0')
+        try:
+            from check_stable_theme import verify
+            verify()
+        except (ValueError, OSError, KeyError) as exc:
+            errors.append('稳定主题完整性检查失败: '+str(exc))
     if t.get('schema')!='research-ppt-studio/task@1': errors.append('schema不支持')
     if t.get('report_type') not in TYPES: errors.append('汇报类型无效')
     if t.get('language') not in {'zh-CN','en-US','bilingual'}: errors.append('语言无效')
@@ -35,6 +42,7 @@ if __name__=='__main__':
     errors=validate(task)
     if args.build:
         if task.get('outline_approved') is not True: errors.append('请先明确确认大纲')
+        if task.get('theme')=='research-studio-unified': errors.append('稳定主题整篇论文构建适配待本次大纲确认后完成；禁止回退到旧六布局原型')
         if task.get('language')!='zh-CN': errors.append('当前六布局自动构建只验证了中文，英文/双语需Codex人工适配')
         for i,page in enumerate(task.get('outline',[])):
             if not isinstance(page,dict): continue

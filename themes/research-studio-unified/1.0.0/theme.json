@@ -1,0 +1,78 @@
+{
+  "theme": "research-studio-unified",
+  "version": "1.0.0",
+  "status": "user-accepted-frozen",
+  "accepted_sample": "MFI-unified-v8",
+  "canvas_inches": [
+    10,
+    5.625
+  ],
+  "colors": {
+    "background": "FFFFFF",
+    "title": "173D64",
+    "section": "286FA7",
+    "accent": "21A5C8",
+    "body": "283B50",
+    "metadata": "6D8195",
+    "rule": "D5E2EF"
+  },
+  "font": "Microsoft YaHei",
+  "font_pt": {
+    "title": 28,
+    "subtitle": 16,
+    "figure_heading": 18,
+    "caption": 13,
+    "conclusion": 18,
+    "footer": 11
+  },
+  "common_boxes_inches": {
+    "title": [
+      0.42,
+      0.59,
+      9.16,
+      0.66
+    ],
+    "subtitle": [
+      0.42,
+      1.4,
+      9.16,
+      0.43
+    ],
+    "conclusion": [
+      0.42,
+      4.87,
+      9.16,
+      0.43
+    ],
+    "source": [
+      0.42,
+      5.3,
+      8.05,
+      0.31
+    ],
+    "page": [
+      8.6,
+      5.3,
+      1,
+      0.31
+    ]
+  },
+  "verified_layouts": [
+    "salvinia-morphology",
+    "salvinia-mechanism",
+    "salvinia-matched-conversion"
+  ],
+  "scientific_rules": [
+    "retain_original_axes_units_legends_scale_bars",
+    "do_not_recolor_source_figures",
+    "separate_observation_author_model_and_inference",
+    "native_chart_with_embedded_workbook"
+  ],
+  "paid_api": false,
+  "upstream": {
+    "repo": "siril9/presentation-skill",
+    "commit": "efd899c5ddf866af2ce0001c4c9340af775d4d55",
+    "license": "MIT"
+  },
+  "version_policy": "copy_to_new_version_and_review; never overwrite accepted version"
+}
