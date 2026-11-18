@@ -1,0 +1,179 @@
+{
+  "schema": "research-ppt-studio/task@1",
+  "task_id": "six-layout-demo",
+  "report_type": "literature-review",
+  "language": "zh-CN",
+  "slide_count": 6,
+  "duration_minutes": 5,
+  "theme": "research-framework-fusion",
+  "palette": "A",
+  "source_pdf": null,
+  "data_kind": "synthetic",
+  "outline_approved": true,
+  "outline": [
+    {
+      "layout": "research-background",
+      "title": "研究背景与科学问题",
+      "claim": "模拟研究：催化膜结构、反应活性与选择性传质的关联",
+      "blocks": [
+        "结构设计\n控制膜厚与位点分布",
+        "性能表征\n记录转化、通量与选择性",
+        "对照验证\n区分反应与传质影响",
+        "边界分析\n记录失活及副反应"
+      ],
+      "method": "研究问题 → 结构变量 → 对照实验 → 证据与替代解释",
+      "takeaway": "模拟研究方案：所有推断均需真实数据与对照实验验证",
+      "evidence": [],
+      "chart": {
+        "categories": [
+          "A",
+          "B",
+          "C"
+        ],
+        "values": [
+          5,
+          8,
+          11
+        ],
+        "unit": "示例转化率 (%)"
+      }
+    },
+    {
+      "layout": "research-content",
+      "title": "研究任务分解",
+      "claim": "模拟研究：催化膜结构、反应活性与选择性传质的关联",
+      "blocks": [
+        "结构设计\n控制膜厚与位点分布",
+        "性能表征\n记录转化、通量与选择性",
+        "对照验证\n区分反应与传质影响",
+        "边界分析\n记录失活及副反应"
+      ],
+      "method": "研究问题 → 结构变量 → 对照实验 → 证据与替代解释",
+      "takeaway": "模拟研究方案：所有推断均需真实数据与对照实验验证",
+      "evidence": [],
+      "chart": {
+        "categories": [
+          "A",
+          "B",
+          "C"
+        ],
+        "values": [
+          5,
+          8,
+          11
+        ],
+        "unit": "示例转化率 (%)"
+      }
+    },
+    {
+      "layout": "technical-roadmap",
+      "title": "多阶段技术路线",
+      "claim": "模拟研究：催化膜结构、反应活性与选择性传质的关联",
+      "blocks": [
+        "结构设计\n控制膜厚与位点分布",
+        "性能表征\n记录转化、通量与选择性",
+        "对照验证\n区分反应与传质影响",
+        "边界分析\n记录失活及副反应"
+      ],
+      "method": "研究问题 → 结构变量 → 对照实验 → 证据与替代解释",
+      "takeaway": "模拟研究方案：所有推断均需真实数据与对照实验验证",
+      "evidence": [],
+      "chart": {
+        "categories": [
+          "A",
+          "B",
+          "C"
+        ],
+        "values": [
+          5,
+          8,
+          11
+        ],
+        "unit": "示例转化率 (%)"
+      }
+    },
+    {
+      "layout": "mechanism-analysis",
+      "title": "机制假设与验证",
+      "claim": "模拟研究：催化膜结构、反应活性与选择性传质的关联",
+      "blocks": [
+        "结构设计\n控制膜厚与位点分布",
+        "性能表征\n记录转化、通量与选择性",
+        "对照验证\n区分反应与传质影响",
+        "边界分析\n记录失活及副反应"
+      ],
+      "method": "研究问题 → 结构变量 → 对照实验 → 证据与替代解释",
+      "takeaway": "模拟研究方案：所有推断均需真实数据与对照实验验证",
+      "evidence": [],
+      "chart": {
+        "categories": [
+          "A",
+          "B",
+          "C"
+        ],
+        "values": [
+          5,
+          8,
+          11
+        ],
+        "unit": "示例转化率 (%)"
+      }
+    },
+    {
+      "layout": "experimental-results",
+      "title": "实验结果与对照",
+      "claim": "模拟研究：催化膜结构、反应活性与选择性传质的关联",
+      "blocks": [
+        "结构设计\n控制膜厚与位点分布",
+        "性能表征\n记录转化、通量与选择性",
+        "对照验证\n区分反应与传质影响",
+        "边界分析\n记录失活及副反应"
+      ],
+      "method": "研究问题 → 结构变量 → 对照实验 → 证据与替代解释",
+      "takeaway": "模拟研究方案：所有推断均需真实数据与对照实验验证",
+      "evidence": [],
+      "chart": {
+        "categories": [
+          "A",
+          "B",
+          "C"
+        ],
+        "values": [
+          5,
+          8,
+          11
+        ],
+        "unit": "示例转化率 (%)"
+      }
+    },
+    {
+      "layout": "research-summary",
+      "title": "研究总结与局限",
+      "claim": "模拟研究：催化膜结构、反应活性与选择性传质的关联",
+      "blocks": [
+        "结构设计\n控制膜厚与位点分布",
+        "性能表征\n记录转化、通量与选择性",
+        "对照验证\n区分反应与传质影响",
+        "边界分析\n记录失活及副反应"
+      ],
+      "method": "研究问题 → 结构变量 → 对照实验 → 证据与替代解释",
+      "takeaway": "模拟研究方案：所有推断均需真实数据与对照实验验证",
+      "evidence": [],
+      "chart": {
+        "categories": [
+          "A",
+          "B",
+          "C"
+        ],
+        "values": [
+          5,
+          8,
+          11
+        ],
+        "unit": "示例转化率 (%)"
+      }
+    }
+  ],
+  "allow_paid_api": false,
+  "publish_source_material": false
+}

@@ -20,7 +20,31 @@ def validate(t):
     if t.get('allow_paid_api') is not False: errors.append('此离线入口不支持付费API')
     return errors
 if __name__=='__main__':
-    task=json.loads(Path(sys.argv[1] if len(sys.argv)>1 else 'task.yaml').read_text(encoding='utf-8-sig'))
+    import argparse, subprocess
+    parser=argparse.ArgumentParser()
+    parser.add_argument('task',nargs='?',default='task.yaml')
+    parser.add_argument('--build',action='store_true')
+    parser.add_argument('--output')
+    args=parser.parse_args()
+    task_path=Path(args.task).resolve()
+    task=json.loads(task_path.read_text(encoding='utf-8-sig'))
     errors=validate(task)
-    print(json.dumps({'valid':not errors,'errors':errors,'outline_approved':task.get('outline_approved') is True,'next_step':'请确认逐页大纲' if not task.get('outline_approved') else '交给Codex按证据构建并逐页验收','automatic_paper_to_ppt':False},ensure_ascii=False,indent=2))
-    raise SystemExit(bool(errors))
+    if args.build:
+        if task.get('outline_approved') is not True: errors.append('请先明确确认大纲')
+        if task.get('language')!='zh-CN': errors.append('当前六布局自动构建只验证了中文，英文/双语需Codex人工适配')
+        for i,page in enumerate(task.get('outline',[])):
+            if not isinstance(page,dict): continue
+            if not isinstance(page.get('blocks'),list) or len(page['blocks'])<4: errors.append(f'第{i+1}页需至少4个内容块')
+            for field in ['claim','takeaway','method']:
+                if not isinstance(page.get(field),str):errors.append(f'第{i+1}页缺少{field}')
+            if page.get('layout')=='experimental-results':
+                chart=page.get('chart',{})
+                if not chart.get('unit') or len(chart.get('categories',[]))!=len(chart.get('values',[])) or not chart.get('values'):errors.append('图表缺单位或数据不完整')
+    print(json.dumps({'valid':not errors,'errors':errors,'outline_approved':task.get('outline_approved') is True},ensure_ascii=False))
+    if errors: raise SystemExit(1)
+    if args.build:
+        if not args.output: parser.error('--build requires --output')
+        root=Path(__file__).resolve().parents[1]
+        out=Path(args.output).resolve()
+        if not out.is_relative_to(root) or out.suffix.lower()!='.pptx' or out.exists(): parser.error('输出必须为项目内尚不存在的pptx路径')
+        raise SystemExit(subprocess.run(['node',str(root/'scripts/build-layout-demo.mjs'),str(out),str(task_path)]).returncode)
